@@ -1,0 +1,64 @@
+[ {
+  "buildOrder" : 14,
+  "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/14/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 937437
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 677956
+  }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/12/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 6950703
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1044657
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 23257673
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 22575172
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 22521563
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 527224787
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 526646797
+  }
+} ]

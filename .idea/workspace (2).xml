@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b435b8c-9872-42d0-b50b-4eddd251413b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/TempRestAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/DataConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/DataConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/UIActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/UIActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/Verifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/Verifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Myfitnesspal/CommunityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Myfitnesspal/CommunityPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/MobileMyfitnesspalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/MobileMyfitnesspalTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/myFitnesspalWebTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/myFitnesspalWebTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ProjectMyfitnesspal" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Automation\ProjectMyfitnesspal" />
+        <option value="C:\Automation\ProjectMyfitnesspal\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dfFj05L3A2CL7CPWVeDK7qVcEl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.IdeaIC2019.3/system/temp-testng-customsuite.xml" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Automation\ProjectMyfitnesspal\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\ProjectMyfitnesspal\Drivers" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="PageObjects.myfitnesspal.MobileFitnesspal" />
+      <recent name="PageObjects" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="@Test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Automation/ProjectMyfitnesspal/ExecuteElectron.xml">
+    <configuration name="C:/Automation/ProjectMyfitnesspal/ExecuteElectron.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMyfitnesspal" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ExecuteElectron.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Automation/ProjectMyfitnesspal/ExecuteWeb.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMyfitnesspal" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ExecuteWeb.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisualTests.createScreenShot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMyfitnesspal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Helpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Helpers" />
+      <option name="MAIN_CLASS_NAME" value="Helpers.VisualTests" />
+      <option name="METHOD_NAME" value="createScreenShot" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myFitnesspalWebTests.test01_login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMyfitnesspal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.myFitnesspalWebTests" />
+      <option name="METHOD_NAME" value="test01_login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myFitnesspalWebTests.test02_caloriesRemaining" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectMyfitnesspal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.myFitnesspalWebTests" />
+      <option name="METHOD_NAME" value="test02_caloriesRemaining" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Automation/ProjectMyfitnesspal/ExecuteWeb.xml" />
+      <item itemvalue="TestNG.myFitnesspalWebTests.test02_caloriesRemaining" />
+      <item itemvalue="TestNG.myFitnesspalWebTests.test01_login" />
+      <item itemvalue="TestNG.VisualTests.createScreenShot" />
+      <item itemvalue="TestNG.C:/Automation/ProjectMyfitnesspal/ExecuteElectron.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Automation/ProjectMyfitnesspal/ExecuteElectron.xml" />
+        <item itemvalue="TestNG.VisualTests.createScreenShot" />
+        <item itemvalue="TestNG.myFitnesspalWebTests.test01_login" />
+        <item itemvalue="TestNG.myFitnesspalWebTests.test02_caloriesRemaining" />
+        <item itemvalue="TestNG.C:/Automation/ProjectMyfitnesspal/ExecuteWeb.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Andrew\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b435b8c-9872-42d0-b50b-4eddd251413b" name="Default Changelist" comment="" />
+      <created>1592808371593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592808371593</updated>
+    </task>
+    <task id="LOCAL‎00001" summary="emsheh">
+      <created>1593936549786</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1593936549786</updated>
+    </task>
+    <task id="LOCAL‎00002" summary="emsheh">
+      <created>1593936595237</created>
+      <option name="number" value="LOCAL‎00002" />
+      <option name="presentableId" value="LOCAL‎00002" />
+      <updated>1593936595237</updated>
+    </task>
+    <task id="LOCAL‎00003" summary="emsheh">
+      <created>1593936651922</created>
+      <option name="number" value="LOCAL‎00003" />
+      <option name="presentableId" value="LOCAL‎00003" />
+      <updated>1593936651922</updated>
+    </task>
+    <task id="LOCAL‎00004" summary="emsheh">
+      <created>1593936998262</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1593936998262</updated>
+    </task>
+    <task id="LOCAL‎00005" summary="emsheh">
+      <created>1593937200355</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1593937200355</updated>
+    </task>
+    <task id="LOCAL‎00006" summary="emsheh">
+      <created>1593939264861</created>
+      <option name="number" value="LOCAL‎00006" />
+      <option name="presentableId" value="LOCAL‎00006" />
+      <updated>1593939264861</updated>
+    </task>
+    <task id="LOCAL‎00007" summary="emsheh">
+      <created>1593940708514</created>
+      <option name="number" value="LOCAL‎00007" />
+      <option name="presentableId" value="LOCAL‎00007" />
+      <updated>1593940708514</updated>
+    </task>
+    <task id="LOCAL‎00008" summary="emsheh">
+      <created>1593944218642</created>
+      <option name="number" value="LOCAL‎00008" />
+      <option name="presentableId" value="LOCAL‎00008" />
+      <updated>1593944218642</updated>
+    </task>
+    <task id="LOCAL‎00009" summary="emsheh">
+      <created>1593946979485</created>
+      <option name="number" value="LOCAL‎00009" />
+      <option name="presentableId" value="LOCAL‎00009" />
+      <updated>1593946979485</updated>
+    </task>
+    <task id="LOCAL‎00010" summary="emsheh">
+      <created>1593948075756</created>
+      <option name="number" value="LOCAL‎00010" />
+      <option name="presentableId" value="LOCAL‎00010" />
+      <updated>1593948075756</updated>
+    </task>
+    <task id="LOCAL‎00011" summary="emsheh">
+      <created>1593960585440</created>
+      <option name="number" value="LOCAL‎00011" />
+      <option name="presentableId" value="LOCAL‎00011" />
+      <updated>1593960585441</updated>
+    </task>
+    <task id="LOCAL‎00012" summary="emsheh">
+      <created>1593960612088</created>
+      <option name="number" value="LOCAL‎00012" />
+      <option name="presentableId" value="LOCAL‎00012" />
+      <updated>1593960612088</updated>
+    </task>
+    <task id="LOCAL‎00013" summary="emsheh">
+      <created>1593961135620</created>
+      <option name="number" value="LOCAL‎00013" />
+      <option name="presentableId" value="LOCAL‎00013" />
+      <updated>1593961135620</updated>
+    </task>
+    <task id="LOCAL‎00014" summary="emsheh">
+      <created>1593962261625</created>
+      <option name="number" value="LOCAL‎00014" />
+      <option name="presentableId" value="LOCAL‎00014" />
+      <updated>1593962261625</updated>
+    </task>
+    <task id="LOCAL‎00015" summary="emsheh">
+      <created>1593964718201</created>
+      <option name="number" value="LOCAL‎00015" />
+      <option name="presentableId" value="LOCAL‎00015" />
+      <updated>1593964718201</updated>
+    </task>
+    <task id="LOCAL‎00016" summary="emsheh">
+      <created>1594026043742</created>
+      <option name="number" value="LOCAL‎00016" />
+      <option name="presentableId" value="LOCAL‎00016" />
+      <updated>1594026043742</updated>
+    </task>
+    <task id="LOCAL‎00017" summary="emsheh">
+      <created>1594100455280</created>
+      <option name="number" value="LOCAL‎00017" />
+      <option name="presentableId" value="LOCAL‎00017" />
+      <updated>1594100455280</updated>
+    </task>
+    <task id="LOCAL‎00018" summary="emsheh">
+      <created>1594143861837</created>
+      <option name="number" value="LOCAL‎00018" />
+      <option name="presentableId" value="LOCAL‎00018" />
+      <updated>1594143861837</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="emsheh" />
+    <option name="LAST_COMMIT_MESSAGE" value="emsheh" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="0" key="#Notifications" timestamp="1597656987667">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="466" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1597656987667" />
+    <state x="466" y="19" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1593937457495" />
+    <state x="233" y="19" key="#Plugins" timestamp="1593431547881">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="19" key="#Plugins/0.0.1280.720@0.0.1280.720" timestamp="1593431547881" />
+    <state x="0" y="38" key="#Project_Structure" timestamp="1592808776028">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="38" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1592808776028" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598385155256">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598385155256" />
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1592995679659">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="93" y="93" width="1095" height="535" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.720@0.0.1280.720" timestamp="1592995679659" />
+    <state x="322" y="66" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1593431552183">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="322" y="66" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1280.720@0.0.1280.720" timestamp="1593431552183" />
+    <state x="283" y="155" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597159321246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="283" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1597159321246" />
+    <state x="283" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1593677428559" />
+    <state x="627" y="176" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1593546383407">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="627" y="176" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.720@0.0.1280.720" timestamp="1593546383407" />
+    <state x="271" y="89" key="#com.intellij.ide.util.ExportDialog" timestamp="1593589347596">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="271" y="89" key="#com.intellij.ide.util.ExportDialog/0.0.1280.720@0.0.1280.720" timestamp="1593589347596" />
+    <state x="492" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1595841050811">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="492" y="51" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1280.680@0.0.1280.680" timestamp="1595841050811" />
+    <state x="318" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594111811146">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="318" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1594111811146" />
+    <state x="438" y="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1594111830698">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="438" y="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.720@0.0.1280.720" timestamp="1594111830698" />
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595492362786">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1595492362786" />
+    <state x="396" y="64" key="#xdebugger.evaluate" timestamp="1593432073522">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="396" y="64" key="#xdebugger.evaluate/0.0.1280.720@0.0.1280.720" timestamp="1593432073522" />
+    <state x="370" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593431022766">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="370" y="230" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.720@0.0.1280.720" timestamp="1593431022766" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1594143853843">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1594143853843" />
+    <state x="657" y="77" key="FileChooserDialogImpl" timestamp="1598384475147">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="657" y="77" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598384475147" />
+    <state x="657" y="81" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1594291895782" />
+    <state x="494" y="254" key="Github.ShareDialog" timestamp="1593677520363">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="494" y="254" key="Github.ShareDialog/0.0.1280.720@0.0.1280.720" timestamp="1593677520363" />
+    <state x="410" y="67" key="Github.UntrackedFilesDialog" timestamp="1593674620404">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="410" y="67" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1593674620404" />
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom" timestamp="1599073750421">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599073750421" />
+    <state width="1237" height="219" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1595098570382" />
+    <state width="1237" height="173" key="GridCell.Tab.0.center" timestamp="1599073750421">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599073750421" />
+    <state width="1237" height="219" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1595098570382" />
+    <state width="1237" height="173" key="GridCell.Tab.0.left" timestamp="1599073750421">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599073750421" />
+    <state width="1237" height="219" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1595098570382" />
+    <state width="1237" height="173" key="GridCell.Tab.0.right" timestamp="1599073750421">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="173" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599073750421" />
+    <state width="1237" height="219" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1595098570382" />
+    <state width="1237" height="206" key="GridCell.Tab.1.bottom" timestamp="1594800978445">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="206" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1594800978445" />
+    <state width="1237" height="206" key="GridCell.Tab.1.center" timestamp="1594800978445">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="206" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1594800978445" />
+    <state width="1237" height="206" key="GridCell.Tab.1.left" timestamp="1594800978445">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="206" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1594800978445" />
+    <state width="1237" height="206" key="GridCell.Tab.1.right" timestamp="1594800978445">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="206" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1594800978445" />
+    <state x="221" y="104" key="IDE.errors.dialog" timestamp="1593515840907">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="221" y="104" key="IDE.errors.dialog/0.0.1280.720@0.0.1280.720" timestamp="1593515840907" />
+    <state x="171" y="16" key="Maven.ArtifactSearchDialog" timestamp="1594110447793">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="171" y="16" key="Maven.ArtifactSearchDialog/0.0.1280.720@0.0.1280.720" timestamp="1594110447793" />
+    <state x="408" y="72" key="RollbackChangesDialog" timestamp="1593936573301">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="408" y="72" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1593936573301" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1598385283043">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598385283043" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1594644186247" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1593948078028">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1593948078028" />
+    <state x="510" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1597994969391">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="510" y="147" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597994969391" />
+    <state x="510" y="156" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1595159663923" />
+    <state x="715" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593937440597">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="715" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1593937440597" />
+    <state x="334" y="92" width="612" height="536" key="find.popup" timestamp="1593638293330">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="334" y="92" width="612" height="536" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1593638293330" />
+    <state x="91" y="53" key="new project wizard" timestamp="1598015396375">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="53" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1598015396375" />
+    <state x="91" y="56" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1595159728873" />
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1596607044000">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1596607044000" />
+    <state x="562" y="123" width="672" height="677" key="run.anything.popup" timestamp="1596965063325">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="562" y="123" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1596965063325" />
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1593947073398" />
+    <state x="303" y="39" width="672" height="641" key="search.everywhere.popup" timestamp="1599118703743">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="39" width="672" height="641" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1599118703743" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1595097556456" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProjectMyfitnesspal$DesktopCalculatorTests_test02_Root.ic" NAME="DesktopCalculatorTests.test02_Root Coverage Results" MODIFIED="1597665180892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SanityTests.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,404 @@
+{
+  "uid" : "38ef46445ffab05c",
+  "name" : "Verify Picture",
+  "fullName" : "SanityTests.myFitnesspalWebTests.test05_verifyPicture",
+  "historyId" : "5300c9c2aa3915213fde19eb561cdf71",
+  "time" : {
+    "start" : 1597995883694,
+    "stop" : 1597995901284,
+    "duration" : 17590
+  },
+  "description" : "Test description: verifying uploaded image element with Ashot on Home page",
+  "descriptionHtml" : "<p>Test description: verifying uploaded image element with Ashot on Home page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1597995858443,
+      "stop" : 1597995883694,
+      "duration" : 25251
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login to Myfitnesspal",
+      "time" : {
+        "start" : 1597995859491,
+        "stop" : 1597995863627,
+        "duration" : 4136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set Text to Text-Field",
+        "time" : {
+          "start" : 1597995859509,
+          "stop" : 1597995859723,
+          "duration" : 214
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //input[@id='username']]"
+        }, {
+          "name" : "value",
+          "value" : "andrewscottt"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Set Text to Text-Field",
+        "time" : {
+          "start" : 1597995859748,
+          "stop" : 1597995859845,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //input[@id='password']]"
+        }, {
+          "name" : "value",
+          "value" : "123456"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click Web Element",
+        "time" : {
+          "start" : 1597995859859,
+          "stop" : 1597995863626,
+          "duration" : 3767
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> class name: submit]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "andrewscottt"
+      }, {
+        "name" : "password",
+        "value" : "123456"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1597995739530,
+      "stop" : 1597995753122,
+      "duration" : 13592
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test description: verifying uploaded image element with Ashot on Home page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Upload picture from file",
+      "time" : {
+        "start" : 1597995883694,
+        "stop" : 1597995888682,
+        "duration" : 4988
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Web Element",
+        "time" : {
+          "start" : 1597995883709,
+          "stop" : 1597995885074,
+          "duration" : 1365
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //*[@class='no-image']//*[@href='/photos/edit']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Upload Photo",
+        "time" : {
+          "start" : 1597995885089,
+          "stop" : 1597995885174,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //*[@type='file']]"
+        }, {
+          "name" : "location",
+          "value" : "C:\\Automation\\ProjectMyfitnesspal\\Photo\\P4020046.JPG"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click Web Element",
+        "time" : {
+          "start" : 1597995885189,
+          "stop" : 1597995888682,
+          "duration" : 3493
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //*[@name='commit']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fileLocation",
+        "value" : "C:\\Automation\\ProjectMyfitnesspal\\Photo\\P4020046.JPG"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Verify image",
+      "time" : {
+        "start" : 1597995894988,
+        "stop" : 1597995896165,
+        "duration" : 1177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "imageElement",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //*[@class='ember-view']/img]"
+      }, {
+        "name" : "expectedImageName",
+        "value" : "code"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Delete loaded picture",
+      "time" : {
+        "start" : 1597995896166,
+        "stop" : 1597995901284,
+        "duration" : 5118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Web Element",
+        "time" : {
+          "start" : 1597995896220,
+          "stop" : 1597995896416,
+          "duration" : 196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //*[text()='My Home']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click Web Element",
+        "time" : {
+          "start" : 1597995896429,
+          "stop" : 1597995896606,
+          "duration" : 177
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //*[@class='ember-view']/img]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click Web Element",
+        "time" : {
+          "start" : 1597995898401,
+          "stop" : 1597995901147,
+          "duration" : 2746
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //*[@href='/photos/edit']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click Web Element",
+        "time" : {
+          "start" : 1597995901160,
+          "stop" : 1597995901284,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (4bfe92300b3e35644864143830556253)] -> xpath: //*[text()='Delete']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1597995901286,
+      "stop" : 1597995901286,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1597995963989,
+      "stop" : 1597995964972,
+      "duration" : 983
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.myFitnesspalWebTests"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.myFitnesspalWebTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "test05_verifyPicture"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.myFitnesspalWebTests"
+  }, {
+    "name" : "host",
+    "value" : "andrew"
+  }, {
+    "name" : "thread",
+    "value" : "14536@andrew.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38ef46445ffab05c.json",
+  "parameterValues" : [ "web" ]
+}

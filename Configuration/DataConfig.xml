@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- TimeOut -->
+    <TimeOut>20</TimeOut>
+
+
+    <!-- Database -->
+    <DBURL>jdbc:mysql://sql2.freemysqlhosting.net/sql2357567</DBURL>
+    <DBUsername>sql2357567</DBUsername>
+    <DBPassword>iM4*zA3*</DBPassword>
+
+    <!-- Data for APIStudents tests -->
+    <APIStudents>http://localhost:9000</APIStudents>
+
+    <firstName>Andrew</firstName>
+    <lastName>Scott</lastName>
+    <email>andrewscott@gmail.com</email>
+    <programme>Automation</programme>
+
+    <course1>Selenium</course1>
+    <course2>TestNG</course2>
+    <course3>Jenkins</course3>
+    <course4>Postman</course4>
+    <course5>mySQL</course5>
+    <course6>Docker</course6>
+
+    <POSTDataOfURI>/student</POSTDataOfURI>
+    <PUTUpdateURI>/student/101</PUTUpdateURI>
+    <DELETEofURI>/student/101</DELETEofURI>
+
+    <!-- Data for APIStudents tests -->
+    <APIStudents>http://localhost:9000</APIStudents>
+
+    <!-- Data for API tests -->
+    <urlAPI>https://api.openweathermap.org/data/2.5/weather</urlAPI>
+    <city>Jerusalem,IL</city>
+    <key>cb5a0626c39fb08416481cda8ff11f67</key>
+
+    <!-- Date for Date Picker "Day"-->
+    <DateDayPicker>2</DateDayPicker>
+    <!-- Web -->
+    <BrowserName>Chrome</BrowserName>
+    <url>https://www.myfitnesspal.com/</url>
+    <loginUrl>https://www.myfitnesspal.com/account/login</loginUrl>
+
+    <!-- File location of picture for WEB -->
+    <FileLocation>C:\Automation\ProjectMyfitnesspal\Photo\P4020046.JPG</FileLocation>
+
+    <!-- File location of screenshot in Project Package for WEB -->
+    <ImageRepository>./ImageRepository/</ImageRepository>
+
+    <!-- Electron driver location -->
+    <DriverElectronPath>./Drivers/electrondriver.exe</DriverElectronPath>
+    <!-- Electron Demo App Location -->
+    <ElectronAppPath>C:/Automation/Electron API Demos-win32-ia32/Electron API Demos.exe</ElectronAppPath>
+
+    <!-- Desktop App -->
+    <DesktopCalculator>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</DesktopCalculator>
+
+
+</Environment>

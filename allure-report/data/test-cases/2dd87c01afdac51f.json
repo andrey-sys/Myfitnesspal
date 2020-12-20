@@ -1,0 +1,208 @@
+{
+  "uid" : "2dd87c01afdac51f",
+  "name" : "Verify Login to myfitnesspal",
+  "fullName" : "SanityTests.myFitnesspalWebTests.test01_login",
+  "historyId" : "cd95d2b7c0d2897418b69e2055d5a555",
+  "time" : {
+    "start" : 1597997579402,
+    "stop" : 1597997579407,
+    "duration" : 5
+  },
+  "description" : "Test description: verify the username on Home page",
+  "descriptionHtml" : "<p>Test description: verify the username on Home page</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+  "statusTrace" : "org.testng.TestNGException: \nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml\r\n\tat org.testng.internal.Parameters.createParams(Parameters.java:290)\r\n\tat org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)\r\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:620)\r\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.myFitnesspalWebTests"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.myFitnesspalWebTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ProjectMyfitnesspal"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.myFitnesspalWebTests"
+  }, {
+    "name" : "host",
+    "value" : "andrew"
+  }, {
+    "name" : "thread",
+    "value" : "11392@andrew.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b2a86a2148b9b905",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'id' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597997173484,
+        "stop" : 1597997173495,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "2644b24ac625b972",
+      "status" : "skipped",
+      "statusDetails" : "\nMethod startSession requires 1 parameters but 2 were supplied in the BeforeClass annotation.",
+      "time" : {
+        "start" : 1597997144618,
+        "stop" : 1597997144623,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "1a84e02723de4d72",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597996986078,
+        "stop" : 1597996986085,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "d536d703103b3c74",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597996228655,
+        "stop" : 1597996228655,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8775a877bf9d5f93",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597996213210,
+        "stop" : 1597996213210,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4736f7886115caef",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1597995026892,
+        "stop" : 1597995026907,
+        "duration" : 15
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 5,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "aa612e03935bc67a",
+        "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/14/allure/#testresult/aa612e03935bc67a",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1597995026892,
+          "stop" : 1597995026907,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "530808bb88a26a78",
+        "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/13/allure/#testresult/530808bb88a26a78",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1597995026892,
+          "stop" : 1597995026907,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "e99415465f9df77b",
+        "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/12/allure/#testresult/e99415465f9df77b",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1597235084593,
+          "stop" : 1597235084595,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "9d462fff7687444e",
+        "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/8/allure/#testresult/9d462fff7687444e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597178364599,
+          "stop" : 1597178364693,
+          "duration" : 94
+        }
+      }, {
+        "uid" : "ab8629a36314936d",
+        "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/7/allure/#testresult/ab8629a36314936d",
+        "status" : "skipped",
+        "statusDetails" : "java.lang.NullPointerException",
+        "time" : {
+          "start" : 1597177898337,
+          "stop" : 1597177898337,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bd7c35503fa9cb34",
+        "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/6/allure/#testresult/bd7c35503fa9cb34",
+        "status" : "broken",
+        "statusDetails" : "An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ANDREW', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: io.appium.java_client.windows.WindowsDriver\nCapabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}\nSession ID: 65B9B10C-CFDA-4996-ADA9-11BF49100069\n*** Element info: {Using=class name, value=user-2}",
+        "time" : {
+          "start" : 1597177841024,
+          "stop" : 1597177841403,
+          "duration" : 379
+        }
+      }, {
+        "uid" : "c544fce7ba482dd",
+        "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/5/allure/#testresult/c544fce7ba482dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597141698014,
+          "stop" : 1597141698220,
+          "duration" : 206
+        }
+      }, {
+        "uid" : "5508e3e33d0c5496",
+        "reportUrl" : "http://localhost:9090/job/Myfitnesspal%20Project%20Web/4/allure/#testresult/5508e3e33d0c5496",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597141698014,
+          "stop" : 1597141698220,
+          "duration" : 206
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2dd87c01afdac51f.json",
+  "parameterValues" : [ ]
+}

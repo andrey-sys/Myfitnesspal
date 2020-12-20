@@ -1,0 +1,151 @@
+[ {
+  "uid" : "aa1d6262495017ac",
+  "name" : "Test DropDown List",
+  "time" : {
+    "start" : 1597997579488,
+    "stop" : 1597997579501,
+    "duration" : 13
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "62925ca2baff7f32",
+  "name" : "Set Date",
+  "time" : {
+    "start" : 1597998653326,
+    "stop" : 1597998716456,
+    "duration" : 63130
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2dd87c01afdac51f",
+  "name" : "Verify Login to myfitnesspal",
+  "time" : {
+    "start" : 1597997579402,
+    "stop" : 1597997579407,
+    "duration" : 5
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6a30391e821d163e",
+  "name" : "Click on Goals",
+  "time" : {
+    "start" : 1597998481838,
+    "stop" : 1597998543740,
+    "duration" : 61902
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4fba5a582eaf7d3b",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1597997579242,
+    "stop" : 1597997579245,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6fef291ac0f773e5",
+  "name" : "Verify Login to myfitnesspal",
+  "time" : {
+    "start" : 1597998424171,
+    "stop" : 1597998425124,
+    "duration" : 953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8da84f40c312b9f",
+  "name" : "Verify Picture",
+  "time" : {
+    "start" : 1597997579459,
+    "stop" : 1597997579459,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "11af686aaac167a2",
+  "name" : "Click on Goals",
+  "time" : {
+    "start" : 1597997579442,
+    "stop" : 1597997579443,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "15cf4ac206daeafa",
+  "name" : "Verify Calories",
+  "time" : {
+    "start" : 1597998458044,
+    "stop" : 1597998458127,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a673fe93b119b774",
+  "name" : "Uploaded Picture",
+  "time" : {
+    "start" : 1597998573920,
+    "stop" : 1597998580721,
+    "duration" : 6801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33bc7d16c691bbe7",
+  "name" : "Set Date",
+  "time" : {
+    "start" : 1597997579459,
+    "stop" : 1597997579459,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5ee9ebb1ae3ecfd2",
+  "name" : "Verify Calories",
+  "time" : {
+    "start" : 1597997579432,
+    "stop" : 1597997579432,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fb8643de666dfff5",
+  "name" : "Verify Picture",
+  "time" : {
+    "start" : 1597998605225,
+    "stop" : 1597998629349,
+    "duration" : 24124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a119db5452ee3fb1",
+  "name" : "Uploaded Picture",
+  "time" : {
+    "start" : 1597997579450,
+    "stop" : 1597997579450,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "613188b5929ba928",
+  "name" : "Test DropDown List",
+  "time" : {
+    "start" : 1597998741482,
+    "stop" : 1597998754721,
+    "duration" : 13239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
