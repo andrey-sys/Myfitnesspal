@@ -2,10 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="false">
     <test name="Web Tests">
-
         <parameter name="PlatformName" value="web"/>
         <classes>
-        <!--<class name="SanityTests.MyfitnesspalDBTests"/>-->
             <class name="SanityTests.myFitnesspalWebTests"/>
         </classes>
     </test>

@@ -1,7 +1,5 @@
 package Utilities;
 
-import PageObjects.DesktopCalculator.MainCalculator;
-import PageObjects.ElectronApp.MainPageElectron;
 import PageObjects.MobileFitnesspal.DiaryPage;
 import PageObjects.MobileFitnesspal.MainPage;
 import PageObjects.Myfitnesspal.*;
@@ -25,11 +23,7 @@ public class ManagePages extends Base
         mainPage = PageFactory.initElements(driver, MainPage.class);
         diaryPage = PageFactory.initElements(driver, DiaryPage.class);
 
-        //Electron pages initialization
-        mainPageElectron = PageFactory.initElements(driver, MainPageElectron.class);
 
-        //Desktop Calculator App initialization
-        mainCalculator= PageFactory.initElements(driver, MainCalculator.class);
     }
 
 

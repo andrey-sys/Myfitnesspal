@@ -1,6 +1,7 @@
 # Project exclude paths
 /target/
-/src/main/java/Utilities/HelperMethods.java/
 /allure-report/
 /allure-results/
+
+
 
