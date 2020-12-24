@@ -12,6 +12,7 @@ public class WebFlows extends CommonOps
     @Step("Login to Myfitnesspal")
     public static void login(String user, String password)
     {
+        UIActions.click(myFitnesspalLogin.btn_closeUpdateBanner);
         UIActions.updateText(myFitnesspalLogin.txt_userName, user);
         UIActions.updateText(myFitnesspalLogin.txt_password, password);
         UIActions.click(myFitnesspalLogin.btn_login);

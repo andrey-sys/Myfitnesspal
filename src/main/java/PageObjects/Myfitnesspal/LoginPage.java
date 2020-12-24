@@ -6,6 +6,9 @@ import org.openqa.selenium.support.How;
 
 public class LoginPage
 {
+    @FindBy(how = How.XPATH, using = "//i[@class='fa fa-times-thin fa-2x close']")
+    public WebElement btn_closeUpdateBanner;
+
     @FindBy(how = How.XPATH,using = "//input[@id='username']")
     public WebElement txt_userName;
 

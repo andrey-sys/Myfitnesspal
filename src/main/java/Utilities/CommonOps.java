@@ -3,12 +3,9 @@ package Utilities;
 import WorkFlows.WebFlows;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
-import io.appium.java_client.windows.WindowsDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.restassured.RestAssured;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -111,9 +108,10 @@ public class CommonOps extends Base
         {
             driver.get(getData("loginUrl"));
 
-            WebFlows.login("andrewscottt", "123456");
+
             try
             {
+                WebFlows.login("andrewscottt", "123456");
                 myHomePage.btn_container.click();
             } catch (Exception e)
             {

@@ -11,7 +11,6 @@ public class ManagePages extends Base
     public static void init()
     {
         //Web pages initialization
-        preLoginButton = PageFactory.initElements(driver, PageObjects.Myfitnesspal.HomePage.class);
         myFitnesspalLogin = PageFactory.initElements(driver, LoginPage.class);
         myHomePage = PageFactory.initElements(driver, MyHomePage.class);
         goalsPage = PageFactory.initElements(driver, GoalsPage.class);
