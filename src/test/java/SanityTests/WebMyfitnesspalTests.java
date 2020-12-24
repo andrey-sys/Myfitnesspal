@@ -3,7 +3,7 @@ package SanityTests;
 import Extensions.UIActions;
 import Extensions.Verifications;
 import Utilities.CommonOps;
-import Utilities.HelperMethods;
+import Utilities.ScreenShot;
 import WorkFlows.WebFlows;
 import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 /*functional tests of web site: */
 @Listeners(Utilities.Listeners.class)  //https://www.guru99.com/listeners-selenium-webdriver.html
-public class myFitnesspalWebTests extends CommonOps
+public class WebMyfitnesspalTests extends CommonOps
 {
 
     @Test(description = "Verify Login to myfitnesspal")
@@ -53,7 +53,7 @@ public class myFitnesspalWebTests extends CommonOps
     {
         WebFlows.upload(getData("FileLocation"));
         myHomePage.link_myHome.click();
-        HelperMethods.takeElementScreenShot(myHomePage.img_uploadedImage, "code");
+        ScreenShot.takeScreenShot(myHomePage.img_uploadedImage, "code");
         Verifications.visualElement(myHomePage.img_uploadedImage, "code");
         WebFlows.deletePicture();
     }

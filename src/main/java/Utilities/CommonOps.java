@@ -103,38 +103,6 @@ public class CommonOps extends Base
     }
 
 
-    public static void initAPI()
-    {
-        RestAssured.baseURI = getData("urlAPI");
-        httpRequest = RestAssured.given();
-    }
-
-
-    public static void initAPIStudents()
-    {
-        RestAssured.baseURI = getData("APIStudents");
-        httpRequest = RestAssured.given();
-        httpRequest.header("Content-Type", "application/json");
-    }
-
-
-    public static void initElectron()
-    {
-        System.setProperty("webdriver.chrome.driver", getData("DriverElectronPath"));
-        ChromeOptions opt = new ChromeOptions();
-        opt.setBinary(getData("ElectronAppPath"));
-        dc.setCapability("chromeOptions", opt);
-        dc.setBrowserName("chrome");
-        driver = new ChromeDriver(dc);
-    }
-
-    public static void initDesktop() throws MalformedURLException
-    {
-        dc.setCapability("app", getData("DesktopCalculator"));
-        driver = new WindowsDriver(new URL("http://127.0.0.1:4723/"), dc);
-    }
-
-
     @BeforeMethod
     public void login()
     {

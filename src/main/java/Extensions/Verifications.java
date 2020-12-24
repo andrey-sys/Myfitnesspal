@@ -19,10 +19,8 @@ public class Verifications extends CommonOps
     @Step("Verify Text in Element")
     public static void testElement(WebElement elem, String expectedValue)
     {
-        if (!Platform.equalsIgnoreCase("mobile") && !Platform.equalsIgnoreCase("electron") && !Platform.equalsIgnoreCase("desktop"))
+        if (!Platform.equalsIgnoreCase("mobile"))
             wait.until(ExpectedConditions.visibilityOf(elem));
-        if (Platform.equalsIgnoreCase("desktop"))
-            assertEquals(elem.getText().replaceAll("Display is", "").trim(), expectedValue);
         else
             assertEquals(elem.getText(), expectedValue);
     }
@@ -64,16 +62,5 @@ public class Verifications extends CommonOps
         assertFalse(diff.hasDiff(), "Image not same!!!");
     }
 
-    @Step("Verify text with text in API")
-    public static void text(String actualText, String expectedText)
-    {
-        assertEquals(actualText, expectedText);
-    }
-
-    @Step("Verify Status Code")
-    public static void verifyStatusCode(int StatusCode)
-    {
-        Assert.assertEquals(response.getStatusCode(), StatusCode);
-    }
 
 }
