@@ -25,7 +25,6 @@ public class Base
     public static DesiredCapabilities dc = new DesiredCapabilities();
 
     //Web pages
-    public static PageObjects.Myfitnesspal.HomePage preLoginButton;
     public static PageObjects.Myfitnesspal.LoginPage myFitnesspalLogin;
     public static PageObjects.Myfitnesspal.MyHomePage myHomePage;
     public static PageObjects.Myfitnesspal.GoalsPage goalsPage;

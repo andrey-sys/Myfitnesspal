@@ -1,5 +1,6 @@
 package Utilities;
 
+import Extensions.UIActions;
 import WorkFlows.WebFlows;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -107,11 +108,16 @@ public class CommonOps extends Base
         if (Platform.equalsIgnoreCase("web"))
         {
             driver.get(getData("loginUrl"));
-
-
             try
             {
-                WebFlows.login("andrewscottt", "123456");
+                UIActions.click(myFitnesspalLogin.btn_closeUpdateBanner);
+            } catch (Exception e)
+            {
+                System.out.println("Exceptiom is: " + e);
+            }
+            WebFlows.login("andrewscottt", "123456");
+            try
+            {
                 myHomePage.btn_container.click();
             } catch (Exception e)
             {
@@ -148,8 +154,7 @@ public class CommonOps extends Base
     @AfterClass
     public void closeSession()
     {
-        //  ManageDatabase.closeConnection();
-        if (!Platform.equalsIgnoreCase("api") && !Platform.equalsIgnoreCase("api_students"))
+
             driver.quit();
 
     }

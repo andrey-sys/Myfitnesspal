@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Environment>
     <!-- TimeOut -->
-    <TimeOut>20</TimeOut>
+    <TimeOut>10</TimeOut>
 
     <!-- Web -->
     <BrowserName>Chrome</BrowserName>
