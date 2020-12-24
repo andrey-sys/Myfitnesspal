@@ -128,8 +128,9 @@ public class CommonOps extends Base
     }
 
     /*initialization of platforms*/
+    @Parameters({"PlatformName"})
     @BeforeClass
-    @Parameters("PlatformName")
+
     public void startSession(String PlatformName) throws MalformedURLException
     {
         Platform = PlatformName;
