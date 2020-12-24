@@ -142,7 +142,7 @@ public class CommonOps extends Base
         if (Platform.equalsIgnoreCase("web"))
         {
             driver.get(getData("loginUrl"));
-            // WebFlows.loginWithDB();
+
             WebFlows.login("andrewscottt", "123456");
             try
             {
@@ -167,20 +167,9 @@ public class CommonOps extends Base
             initBrowser(getData("BrowserName"));
         } else if (Platform.equalsIgnoreCase("mobile"))
             initMobile();
-        else if (Platform.equalsIgnoreCase("api"))
-            initAPI();
-        else if (Platform.equalsIgnoreCase("api_students"))
-            initAPIStudents();
-        else if (Platform.equalsIgnoreCase("electron"))
-            initElectron();
-        else if (Platform.equalsIgnoreCase("desktop"))
-            initDesktop();
-
         else
             throw new RuntimeException(("Invalid Platform Type Name"));
-
         ManagePages.init();
-//        ManageDatabase.initConnection(getData("DBURL"), getData("DBUsername"), getData("DBPassword"));
 
     }
 
