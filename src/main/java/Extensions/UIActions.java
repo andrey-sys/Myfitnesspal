@@ -36,7 +36,7 @@ public class UIActions extends CommonOps
      * Method updateText has extended from Selenium method and have WebDriverWait instance.
      * In this method, used if sentence to avoid executing of a wait.until function on mobile tests.
      *
-     * @param elem is a web element that I perform setting on it.
+     * @param elem  is a web element that I perform setting on it.
      * @param value is a text that I set in the text field.
      */
     @Step("Set Text to Text-Field")
@@ -48,8 +48,12 @@ public class UIActions extends CommonOps
     }
 
     /**
+     * Method uploadPhoto perform uploading the image file into the web element.
+     * Method uploadPhoto has WebDriverWait instance.
      *
-     * */
+     * @param elem  is a web element that I perform uploading on it.
+     * @param location is a path of the image file.
+     */
     @Step("Upload Photo")
     public static void uploadPhoto(WebElement elem, String location)
     {
