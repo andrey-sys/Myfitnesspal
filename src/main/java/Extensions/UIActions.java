@@ -9,17 +9,36 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
+/**
+ * This class is for Actions methods
+ *
+ * @see Utilities.CommonOps have extend from one of the main classes
+ */
 public class UIActions extends CommonOps
 {
-
+    /**
+     * Method click perform click on the element.
+     * Method click has extended from Selenium method and have WebDriverWait instance.
+     * In this method, used if sentence to avoid executing of a wait.until function on mobile tests.
+     *
+     * @param elem is a web element that I perform click on it.
+     */
     @Step("Click Web Element")
     public static void click(WebElement elem)
     {
-        if (!Platform.equalsIgnoreCase("mobile") && !Platform.equalsIgnoreCase("electron") && !Platform.equalsIgnoreCase("desktop"))
+        if (!Platform.equalsIgnoreCase("mobile"))
             wait.until(ExpectedConditions.elementToBeClickable(elem));
         elem.click();
     }
 
+    /**
+     * Method updateText perform setting text into the text field.
+     * Method updateText has extended from Selenium method and have WebDriverWait instance.
+     * In this method, used if sentence to avoid executing of a wait.until function on mobile tests.
+     *
+     * @param elem is a web element that I perform setting on it.
+     * @param value is a text that I set in the text field.
+     */
     @Step("Set Text to Text-Field")
     public static void updateText(WebElement elem, String value)
     {
@@ -28,19 +47,15 @@ public class UIActions extends CommonOps
         elem.sendKeys(value);
     }
 
+    /**
+     *
+     * */
     @Step("Upload Photo")
     public static void uploadPhoto(WebElement elem, String location)
     {
-
         wait.until(ExpectedConditions.visibilityOf(elem)).sendKeys(location);
     }
 
-   /* @Step("Mouse Hover")
-    public static void mouseHoverElement(WebElement elem1, WebElement elem2)
-    {
-        action.moveToElement(elem1).moveToElement(elem2).click().build().perform();
-
-    }*/
 
     @Step("Set Text to DropDown List")
     public static void updateDropDown(WebElement elem, String value)
@@ -67,15 +82,11 @@ public class UIActions extends CommonOps
         }
     }
 
-    @Step("Click Next button on Calendar to select next month")
-    public static void clickNext(WebElement elem)
-    {
 
-    }
-
-    @Step("Click Prev button on Calendar to select previous month")
-    public static void clickPrev(WebElement elem)
+     @Step("Mouse Hover")
+    public static void mouseHoverElement(WebElement elem1, WebElement elem2)
     {
+        action.moveToElement(elem1).moveToElement(elem2).click().build().perform();
 
     }
 
