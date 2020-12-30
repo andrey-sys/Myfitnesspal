@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class MobileMyfitnesspalTests extends CommonOps
 {
     @Test(description = "Verify Title")
-    @Description("Test description: verify that title is -Calories Remaining-")
+    @Description("Test description: verify that title is: Calories Remaining")
     public void test01_verifyTitle()
     {
         Verifications.testElement(mainPage.txt_title, "Calories Remaining");
