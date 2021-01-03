@@ -51,7 +51,7 @@ public class UIActions extends CommonOps
      * Method uploadPhoto perform uploading the image file into the web element.
      * Method uploadPhoto has WebDriverWait instance.
      *
-     * @param elem  is a web element that I perform uploading on it.
+     * @param elem     is a web element that I perform uploading on it.
      * @param location is a path of the image file.
      */
     @Step("Upload Photo")
@@ -60,9 +60,16 @@ public class UIActions extends CommonOps
         wait.until(ExpectedConditions.visibilityOf(elem)).sendKeys(location);
     }
 
-
+    /**
+     * Method languageDropDownList perform language drop down list.
+     * Method languageDropDownList has Select instance class.
+     * Also I use  method selectByVisibleText, it's check matching option of
+     * elements that are found
+     * @param elem  is a web element of dropdown list.
+     * @param value is a text of the list(any languages).
+     */
     @Step("Set Text to DropDown List")
-    public static void updateDropDown(WebElement elem, String value)
+    public static void languageDropDownList(WebElement elem, String value)
     {
         if (!Platform.equalsIgnoreCase("mobile"))
             wait.until(ExpectedConditions.visibilityOf(elem));
@@ -70,6 +77,13 @@ public class UIActions extends CommonOps
         onchange.selectByVisibleText(value);
     }
 
+    /**
+     * Method setDatePicker perform setting of date picker.
+     * Method setDatePicker has WebElement interface instance class.
+     *
+     * @param elem  is a web element of the date widget.
+     * @param day is a number of the day in any month.
+     */
     @Step("Set Date Picker ")
     public static void setDatePicker(WebElement elem, String day)
     {
@@ -84,14 +98,6 @@ public class UIActions extends CommonOps
                 break;
             }
         }
-    }
-
-
-     @Step("Mouse Hover")
-    public static void mouseHoverElement(WebElement elem1, WebElement elem2)
-    {
-        action.moveToElement(elem1).moveToElement(elem2).click().build().perform();
-
     }
 
 }

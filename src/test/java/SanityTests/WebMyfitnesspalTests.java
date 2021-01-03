@@ -9,7 +9,7 @@ import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-/*functional tests of web site: */
+
 @Listeners(Utilities.Listeners.class)  //https://www.guru99.com/listeners-selenium-webdriver.html
 public class WebMyfitnesspalTests extends CommonOps
 {
@@ -73,7 +73,7 @@ public class WebMyfitnesspalTests extends CommonOps
     public void test07_dropDown()
     {
         myHomePage.link_community.click();
-        UIActions.updateDropDown(communityPage.list_onchange,"русский");
+        UIActions.languageDropDownList(communityPage.list_onchange,"русский");
         Verifications.testElement(communityPage.href_ruSearch,"Поиск");
     }
 
