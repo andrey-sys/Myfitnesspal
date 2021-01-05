@@ -101,7 +101,6 @@ I'm using javadoc without installing the specific plugin, so
   In addition way, I'm using Allure report. First of all you must to see the
   next folders after first execution:
   
-  ![x](C:\Dev\MyFitnessPall\Photo\P4020046.jpg)
   
      allure-report
      allure-results 
