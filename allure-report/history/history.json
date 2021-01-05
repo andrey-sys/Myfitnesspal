@@ -1,0 +1,142 @@
+{
+  "48d71ff9c7a1b6e77ab5f2a6e6f04ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d4d60b79eb34bb8",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure/#testresult/6d4d60b79eb34bb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609681790372,
+        "stop" : 1609681791096,
+        "duration" : 724
+      }
+    } ]
+  },
+  "b356bab796c40f00aed9aabae84fc65e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5517b2a6edf6d66",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure/#testresult/e5517b2a6edf6d66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609682116092,
+        "stop" : 1609682147955,
+        "duration" : 31863
+      }
+    } ]
+  },
+  "9ce00dab26f760c59006130a3eb1b49f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a511e500d1dcbcc",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure/#testresult/6a511e500d1dcbcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609681890122,
+        "stop" : 1609681890636,
+        "duration" : 514
+      }
+    } ]
+  },
+  "9530cfcfc3ae8c74b608258933b9d172" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c706fc10457a811e",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure/#testresult/c706fc10457a811e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609681997992,
+        "stop" : 1609682037579,
+        "duration" : 39587
+      }
+    } ]
+  },
+  "a2cfeb30d8c9f183fd346e92ae964b0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb927a678ebcd43d",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure/#testresult/fb927a678ebcd43d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609682194095,
+        "stop" : 1609682205513,
+        "duration" : 11418
+      }
+    } ]
+  },
+  "b8db9cd640e01ff383d56358179ae3c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db12987af7dacb0d",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure/#testresult/db12987af7dacb0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609681841646,
+        "stop" : 1609681841742,
+        "duration" : 96
+      }
+    } ]
+  },
+  "8d39c17f0a938d50f9c99780bb0866da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "343a472b8795ac0f",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure/#testresult/343a472b8795ac0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609682250709,
+        "stop" : 1609682264147,
+        "duration" : 13438
+      }
+    } ]
+  }
+}

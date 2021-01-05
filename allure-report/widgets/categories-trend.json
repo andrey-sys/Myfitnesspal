@@ -1,0 +1,6 @@
+[ {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+} ]

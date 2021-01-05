@@ -1,0 +1,100 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "SanityTests.WebMyfitnesspalTests",
+    "children" : [ {
+      "name" : "test01_login",
+      "uid" : "6d4d60b79eb34bb8",
+      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609681790372,
+        "stop" : 1609681791096,
+        "duration" : 724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test02_caloriesRemaining",
+      "uid" : "db12987af7dacb0d",
+      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609681841646,
+        "stop" : 1609681841742,
+        "duration" : 96
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test03_clickGoals",
+      "uid" : "6a511e500d1dcbcc",
+      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609681890122,
+        "stop" : 1609681890636,
+        "duration" : 514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test04_uploadImage",
+      "uid" : "c706fc10457a811e",
+      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609681997992,
+        "stop" : 1609682037579,
+        "duration" : 39587
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test05_verifyPicture",
+      "uid" : "e5517b2a6edf6d66",
+      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609682116092,
+        "stop" : 1609682147955,
+        "duration" : 31863
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test06_setDate",
+      "uid" : "fb927a678ebcd43d",
+      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609682194095,
+        "stop" : 1609682205513,
+        "duration" : 11418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test07_dropDown",
+      "uid" : "343a472b8795ac0f",
+      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609682250709,
+        "stop" : 1609682264147,
+        "duration" : 13438
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    } ],
+    "uid" : "SanityTests.WebMyfitnesspalTests"
+  } ]
+}

@@ -101,7 +101,7 @@ I'm using javadoc without installing the specific plugin, so
   In addition way, I'm using Allure report. First of all you must to see the
   next folders after first execution:
   
-  ![alt text](C:\Dev\MyFitnessPall\v.png)
+  ![two folders](C:\Dev\MyFitnessPall\v.PNG)
   
      allure-report
      allure-results 
