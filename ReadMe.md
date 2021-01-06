@@ -15,7 +15,16 @@ In this project, I'm testing the main functionality of
   There is also many advantages to use OOP language like Java in this 
   architecture:
   
-   
+   - In this approach we focus on breaking up the problem into smaller parts.
+   	In bottom up approach, we solve smaller problems and integrate it as whole
+   	 and complete the solution.
+   - Each part is programmed separately therefore contain redundancy.
+   	Redundancy is minimized by using data encapsulation and data hiding.
+   - This approach widely used in debugging, module documentation, etc.	It is 
+   basically used in testing.
+   - In the Bottom-up architecture composition takes place, and
+    in this kind of implementation details may differ.
+    
 ## Tools
  
  ***
@@ -23,8 +32,10 @@ In this project, I'm testing the main functionality of
  - Java
  - Selenium webDriver
  - TestNG framework
+ - Appium Studio(Community Edition)
  - Allure report
  - Javadoc
+ - Jenkins
  
  ## Requirements
  
@@ -38,37 +49,47 @@ In order to execute those tests you need to
  - Chrome browser 
  - FireFox browser 
  - Edge browser latest version
- - Make clone from the repository
+ - Make clone of the code from the repository 
+ - Save project on your device locally
+ - Cell phone(SAMSUNG Galaxy A8 2018 SM-A530F)or any other Android device,
+      cable DATA
+ - Download Jenkins.war file
   
-  After getting of the all stuff, check your installation by CMD, 
-  
-  for example:
-     
-     C:\Users\Andrew>allure  --version
-     2.13.0
-     
-     C:\Users\Andrew>java -version
-     java version "1.8.0_211"
+  **Check the proper installation of all requirements**
       
  ## Usage
  
   ***
-  To run all those tests with maven, after cloning this
-   repo on your device, navigate to your directory folder 
-  and open it in powerShell or CMD or in terminal of 
-   your IDE, than type in command line:
+   This project have two main executable Classes MobileMyfitnesspalTests and
+   WebMyfitnesspalTests. To run all those tests with maven, I'm using XML files
+   ExecuteMobile.xml & ExecuteWeb.xml. For executing ExecuteMobile.xml file
+   you must install Appium Studio first. Download and install from Play Store
+   MyFitnessPal App. Initiate the Developer mode on your device. 
+   Ensure the right connection to the Appium Studio with your phone, the 
+   Appium Studio must be open all the time, when you performing the execution
+   of mobile app. So after this you are ready to full execution of the tests.
+   For executing ExecuteWeb.xml file, and after it, ExecuteMobile.xml, or 
+   on the contrary with XML files, you can do next:
+       
+     Hold mouse on one of this files and click rigth mouse button,
+     in the list choose:
+     Run 'C:/Your/Path/ExecuteWeb.xml
+     and hit enter button and you will see the execution has begun.
    
-     mvn compile 
     
-   and hit enter, and then type in command line 
-   
-     mvn test 
-      
-  and hit enter. Now you can see the execution of those tests.
-  You also can perform next command in your cmd:
-  
-     mvn clean install
+   I integrate ***Jenkins*** in my project, it is a free source that can handle
+    any kind of build or continuous integration. So to launch with Jenkins
+    you must download it, and install it locally with special key.
+    After proper installing you need to launch it locally next way:
     
+       Open your folder that contain Jenkins file with CMD and type:
+       C:\Automation> java -jar jenkins.war --httpPort=9090
+       *you can choose any free port you want, and hit enter button.
+       
+   After a few seconds you will see that Jenkins is started. 
+   Open your web browser   
+    
+ 
   The command also will give you the same result. Be sure of
    proper cloning of the code to right location, to avoid of mistakes.  
   
