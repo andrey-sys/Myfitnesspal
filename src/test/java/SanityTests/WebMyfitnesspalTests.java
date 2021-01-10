@@ -9,11 +9,21 @@ import io.qameta.allure.Description;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+/**
+ * @author Andrew
+ * @version 1.0
+ * @since
+ * <p>
+ * This is main Web class of Sanity tests
+ * Here I execute tests with TestNG for website myfitnesspal.com
+ */
 
-@Listeners(Utilities.Listeners.class)  //https://www.guru99.com/listeners-selenium-webdriver.html
+@Listeners(Utilities.Listeners.class)
 public class WebMyfitnesspalTests extends CommonOps
 {
-
+    /**
+     *
+     * */
     @Test(description = "Verify Login to myfitnesspal")
     @Description("Test description: verify the username on Home page")
     public void test01_login()
@@ -21,6 +31,9 @@ public class WebMyfitnesspalTests extends CommonOps
         Verifications.testElement(myHomePage.txt_myUserName, "andrewscottt");
     }
 
+    /**
+     *
+     * */
     @Test(description = "Verify Calories")
     @Description("Test description: verify calories remaining on Home page")
     public void test02_caloriesRemaining()
@@ -28,6 +41,9 @@ public class WebMyfitnesspalTests extends CommonOps
         Verifications.testElement(myHomePage.txt_calories_remaining, "1890");
     }
 
+    /**
+     *
+     * */
     @Test(description = "Click on Goals")
     @Description("Test description: click on goals page and verify calories remaining ")
     public void test03_clickGoals()
@@ -36,6 +52,9 @@ public class WebMyfitnesspalTests extends CommonOps
         Verifications.testElement(goalsPage.txt_calories, "1890");
     }
 
+    /**
+     *
+     * */
     @Test(description = "Uploaded Picture")
     @Description("Test description: upload picture from Gallery on Community page," +
             " ensure that element(button) appear and delete the picture ")
@@ -46,7 +65,9 @@ public class WebMyfitnesspalTests extends CommonOps
         communityPage.btn_delete.click();
     }
 
-
+    /**
+     *
+     * */
     @Test(description = "Verify Picture")
     @Description("Test description: verifying uploaded image element with Ashot on Home page")
     public void test05_verifyPicture()
@@ -58,6 +79,9 @@ public class WebMyfitnesspalTests extends CommonOps
         WebFlows.deletePicture();
     }
 
+    /**
+     *
+     * */
     @Test(description = "Set Date")
     @Description("Setting date: 2 August 2020 in Food page")
     public void test06_setDate()
@@ -68,13 +92,16 @@ public class WebMyfitnesspalTests extends CommonOps
         Verifications.testDateDay(foodPage.txt_date, "2");
     }
 
+    /**
+     *
+     * */
     @Test(description = "Test DropDown List")
-    @Description("Test dropdown list on Community page: select \"русский\" in the list")
+    @Description("Test dropdown list on Community page: select Deutsch in the list")
     public void test07_dropDown()
     {
         myHomePage.link_community.click();
-        UIActions.languageDropDownList(communityPage.list_onchange,"русский");
-        Verifications.testElement(communityPage.href_ruSearch,"Поиск");
+        UIActions.languageDropDownList(communityPage.list_onchange, "Deutsch");
+        Verifications.testElement(communityPage.href_ruSearch, "Suchen");
     }
 
 

@@ -1,4 +1,4 @@
-package PageObjects.Myfitnesspal;
+package PageObjects.WebMyfitnesspal;
 
 
 import org.openqa.selenium.WebElement;

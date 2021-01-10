@@ -25,12 +25,12 @@ public class Base
     public static DesiredCapabilities dc = new DesiredCapabilities();
 
     //Web pages
-    public static PageObjects.Myfitnesspal.LoginPage myFitnesspalLogin;
-    public static PageObjects.Myfitnesspal.MyHomePage myHomePage;
-    public static PageObjects.Myfitnesspal.GoalsPage goalsPage;
-    public static PageObjects.Myfitnesspal.CommunityPage communityPage;
-    public static PageObjects.Myfitnesspal.FoodPage foodPage;
-    public static PageObjects.Myfitnesspal.ReportsPage reportsPage;
+    public static PageObjects.WebMyfitnesspal.LoginPage myFitnesspalLogin;
+    public static PageObjects.WebMyfitnesspal.MyHomePage myHomePage;
+    public static PageObjects.WebMyfitnesspal.GoalsPage goalsPage;
+    public static PageObjects.WebMyfitnesspal.CommunityPage communityPage;
+    public static PageObjects.WebMyfitnesspal.FoodPage foodPage;
+    public static PageObjects.WebMyfitnesspal.ReportsPage reportsPage;
 
     //Mobile pages
     public static PageObjects.MobileFitnesspal.MainPage mainPage;

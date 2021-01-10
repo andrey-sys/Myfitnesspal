@@ -2,7 +2,7 @@ package Utilities;
 
 import PageObjects.MobileFitnesspal.DiaryPage;
 import PageObjects.MobileFitnesspal.MainPage;
-import PageObjects.Myfitnesspal.*;
+import PageObjects.WebMyfitnesspal.*;
 import org.openqa.selenium.support.PageFactory;
 
 public class ManagePages extends Base

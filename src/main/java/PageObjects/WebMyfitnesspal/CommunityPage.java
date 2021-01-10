@@ -1,4 +1,4 @@
-package PageObjects.Myfitnesspal;
+package PageObjects.WebMyfitnesspal;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,7 +16,7 @@ public class CommunityPage
     public WebElement btn_edit;
     @FindBy(how = How.XPATH,using = "//*[contains(@onchange,'window')]")
     public WebElement list_onchange;
-    @FindBy(how = How.XPATH,using = "//*[@href='/ru/search']")
+    @FindBy(how = How.XPATH,using = "//*[@href='/de/search']")
     public WebElement href_ruSearch;
 
 
