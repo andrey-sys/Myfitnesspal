@@ -1,4 +1,28 @@
 [ {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 7,
+    "passed" : 7,
+    "unknown" : 0,
+    "total" : 16
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 14,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 16
+  }
+}, {
   "buildOrder" : 2,
   "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure",
   "reportName" : "AllureReport",

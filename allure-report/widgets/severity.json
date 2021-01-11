@@ -1,71 +1,161 @@
 [ {
-  "uid" : "6a511e500d1dcbcc",
-  "name" : "Click on Goals",
-  "time" : {
-    "start" : 1609681890122,
-    "stop" : 1609681890636,
-    "duration" : 514
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c706fc10457a811e",
-  "name" : "Uploaded Picture",
-  "time" : {
-    "start" : 1609681997992,
-    "stop" : 1609682037579,
-    "duration" : 39587
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e5517b2a6edf6d66",
-  "name" : "Verify Picture",
-  "time" : {
-    "start" : 1609682116092,
-    "stop" : 1609682147955,
-    "duration" : 31863
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6d4d60b79eb34bb8",
-  "name" : "Verify Login to myfitnesspal",
-  "time" : {
-    "start" : 1609681790372,
-    "stop" : 1609681791096,
-    "duration" : 724
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "db12987af7dacb0d",
+  "uid" : "127f73564ec79890",
   "name" : "Verify Calories",
   "time" : {
-    "start" : 1609681841646,
-    "stop" : 1609681841742,
-    "duration" : 96
+    "start" : 1610269729809,
+    "stop" : 1610269729809,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "fb927a678ebcd43d",
-  "name" : "Set Date",
-  "time" : {
-    "start" : 1609682194095,
-    "stop" : 1609682205513,
-    "duration" : 11418
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "343a472b8795ac0f",
+  "uid" : "142f45d86b0c04d1",
   "name" : "Test DropDown List",
   "time" : {
-    "start" : 1609682250709,
-    "stop" : 1609682264147,
-    "duration" : 13438
+    "start" : 1610269729857,
+    "stop" : 1610269729857,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "37a514c60a0bcf23",
+  "name" : "Click on Goals",
+  "time" : {
+    "start" : 1610269729828,
+    "stop" : 1610269729828,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2642cf0e5bdabbf3",
+  "name" : "Uploaded Picture",
+  "time" : {
+    "start" : 1610293572733,
+    "stop" : 1610293587064,
+    "duration" : 14331
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b19bf3255e963cd",
+  "name" : "Set Date",
+  "time" : {
+    "start" : 1610293700205,
+    "stop" : 1610293705730,
+    "duration" : 5525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb20dc9399e25402",
+  "name" : "Verify Picture",
+  "time" : {
+    "start" : 1610269729845,
+    "stop" : 1610269729845,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8008d7c232279da0",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1610279501956,
+    "stop" : 1610279501959,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ee714f93a84824fb",
+  "name" : "Verify Login to myfitnesspal",
+  "time" : {
+    "start" : 1610269729797,
+    "stop" : 1610269729799,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3c9c188c08bd402d",
+  "name" : "Verify Calories",
+  "time" : {
+    "start" : 1610293466495,
+    "stop" : 1610293466599,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78e87a314824b322",
+  "name" : "Click on Goals",
+  "time" : {
+    "start" : 1610293527016,
+    "stop" : 1610293527391,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b723c7fba8164c05",
+  "name" : "Set Date",
+  "time" : {
+    "start" : 1610269729850,
+    "stop" : 1610269729850,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c1bcba52d3f93b4d",
+  "name" : "Verify Login to myfitnesspal",
+  "time" : {
+    "start" : 1610293411732,
+    "stop" : 1610293416177,
+    "duration" : 4445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7540a6a2c5530833",
+  "name" : "Verify Picture",
+  "time" : {
+    "start" : 1610293631687,
+    "stop" : 1610293651755,
+    "duration" : 20068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e90eb9c0dcfbe99",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1610269729557,
+    "stop" : 1610269729560,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e64f275bacf7fd45",
+  "name" : "Test DropDown List",
+  "time" : {
+    "start" : 1610293753172,
+    "stop" : 1610293762048,
+    "duration" : 8876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b477e1e7e100d65",
+  "name" : "Uploaded Picture",
+  "time" : {
+    "start" : 1610269729835,
+    "stop" : 1610269729835,
+    "duration" : 0
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]

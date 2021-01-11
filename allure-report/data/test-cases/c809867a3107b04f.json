@@ -1,5 +1,5 @@
 {
-  "uid" : "343a472b8795ac0f",
+  "uid" : "c809867a3107b04f",
   "name" : "Test DropDown List",
   "fullName" : "SanityTests.WebMyfitnesspalTests.test07_dropDown",
   "historyId" : "8d39c17f0a938d50f9c99780bb0866da",
@@ -38,8 +38,8 @@
         "name" : "elem",
         "value" : "Proxy element for: DefaultElementLocator 'By.xpath: //i[@class='fa fa-times-thin fa-2x close']'"
       } ],
-      "shouldDisplayMessage" : true,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
       "hasContent" : true,
       "stepsCount" : 0
     }, {
@@ -67,8 +67,8 @@
           "name" : "value",
           "value" : "andrewscottt"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       }, {
@@ -88,8 +88,8 @@
           "name" : "value",
           "value" : "123456"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       }, {
@@ -106,8 +106,8 @@
           "name" : "elem",
           "value" : "[[ChromeDriver: chrome on WINDOWS (2ee8fde89e7d3a3bac55c4fbeba95477)] -> class name: submit]"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       } ],
@@ -119,15 +119,15 @@
         "name" : "password",
         "value" : "123456"
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : true,
       "stepsCount" : 3
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : true,
     "stepsCount" : 5
   }, {
@@ -142,8 +142,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   } ],
@@ -167,8 +167,8 @@
         "name" : "value",
         "value" : "русский"
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : true,
       "stepsCount" : 0
     }, {
@@ -188,15 +188,15 @@
         "name" : "expectedValue",
         "value" : "Поиск"
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : true,
       "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : true,
     "stepsCount" : 2
   },
@@ -212,8 +212,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   }, {
@@ -228,8 +228,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   } ],
@@ -272,14 +272,12 @@
     "value" : "web"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "343a472b8795ac0f.json",
+  "source" : "c809867a3107b04f.json",
   "parameterValues" : [ "web" ]
 }

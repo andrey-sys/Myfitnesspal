@@ -1,5 +1,5 @@
 {
-  "uid" : "fb927a678ebcd43d",
+  "uid" : "885063060140865d",
   "name" : "Set Date",
   "fullName" : "SanityTests.WebMyfitnesspalTests.test06_setDate",
   "historyId" : "a2cfeb30d8c9f183fd346e92ae964b0f",
@@ -38,8 +38,8 @@
         "name" : "elem",
         "value" : "Proxy element for: DefaultElementLocator 'By.xpath: //i[@class='fa fa-times-thin fa-2x close']'"
       } ],
-      "shouldDisplayMessage" : true,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
       "hasContent" : true,
       "stepsCount" : 0
     }, {
@@ -67,8 +67,8 @@
           "name" : "value",
           "value" : "andrewscottt"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       }, {
@@ -88,8 +88,8 @@
           "name" : "value",
           "value" : "123456"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       }, {
@@ -106,8 +106,8 @@
           "name" : "elem",
           "value" : "[[ChromeDriver: chrome on WINDOWS (2ee8fde89e7d3a3bac55c4fbeba95477)] -> class name: submit]"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       } ],
@@ -119,15 +119,15 @@
         "name" : "password",
         "value" : "123456"
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : true,
       "stepsCount" : 3
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : true,
     "stepsCount" : 5
   }, {
@@ -142,8 +142,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   } ],
@@ -172,8 +172,8 @@
           "name" : "elem",
           "value" : "[[ChromeDriver: chrome on WINDOWS (2ee8fde89e7d3a3bac55c4fbeba95477)] -> id: datepicker-trigger]"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       }, {
@@ -190,8 +190,8 @@
           "name" : "elem",
           "value" : "[[ChromeDriver: chrome on WINDOWS (2ee8fde89e7d3a3bac55c4fbeba95477)] -> xpath: //*[@id='ui-datepicker-div']//*[contains(text(),'Next')]]"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       }, {
@@ -211,8 +211,8 @@
           "name" : "day",
           "value" : "2"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       } ],
@@ -221,8 +221,8 @@
         "name" : "day",
         "value" : "2"
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : true,
       "stepsCount" : 3
     }, {
@@ -239,8 +239,8 @@
         "name" : "elem",
         "value" : "[[ChromeDriver: chrome on WINDOWS (2ee8fde89e7d3a3bac55c4fbeba95477)] -> xpath: //*[@class='date']//time[text()]]"
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : true,
       "stepsCount" : 0
     }, {
@@ -260,15 +260,15 @@
         "name" : "expectedValue",
         "value" : "2"
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : true,
       "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : true,
     "stepsCount" : 6
   },
@@ -284,8 +284,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   }, {
@@ -300,8 +300,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   } ],
@@ -344,14 +344,12 @@
     "value" : "web"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fb927a678ebcd43d.json",
+  "source" : "885063060140865d.json",
   "parameterValues" : [ "web" ]
 }

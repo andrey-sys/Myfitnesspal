@@ -1,5 +1,5 @@
 {
-  "uid" : "6a511e500d1dcbcc",
+  "uid" : "4e1d38f822243147",
   "name" : "Click on Goals",
   "fullName" : "SanityTests.WebMyfitnesspalTests.test03_clickGoals",
   "historyId" : "9ce00dab26f760c59006130a3eb1b49f",
@@ -25,8 +25,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   }, {
@@ -54,8 +54,8 @@
         "name" : "elem",
         "value" : "Proxy element for: DefaultElementLocator 'By.xpath: //i[@class='fa fa-times-thin fa-2x close']'"
       } ],
-      "shouldDisplayMessage" : true,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
       "hasContent" : true,
       "stepsCount" : 0
     }, {
@@ -83,8 +83,8 @@
           "name" : "value",
           "value" : "andrewscottt"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       }, {
@@ -104,8 +104,8 @@
           "name" : "value",
           "value" : "123456"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       }, {
@@ -122,8 +122,8 @@
           "name" : "elem",
           "value" : "[[ChromeDriver: chrome on WINDOWS (2ee8fde89e7d3a3bac55c4fbeba95477)] -> class name: submit]"
         } ],
-        "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "hasContent" : true,
         "stepsCount" : 0
       } ],
@@ -135,15 +135,15 @@
         "name" : "password",
         "value" : "123456"
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : true,
       "stepsCount" : 3
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : true,
     "stepsCount" : 5
   } ],
@@ -167,15 +167,15 @@
         "name" : "expectedValue",
         "value" : "1890"
       } ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : true,
       "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : true,
     "stepsCount" : 1
   },
@@ -191,8 +191,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   }, {
@@ -207,8 +207,8 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : false,
     "stepsCount" : 0
   } ],
@@ -251,14 +251,12 @@
     "value" : "web"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6a511e500d1dcbcc.json",
+  "source" : "4e1d38f822243147.json",
   "parameterValues" : [ "web" ]
 }

@@ -6,7 +6,7 @@
 
 In this project, I'm testing the main functionality of
  the website https://www.myfitnesspal.com/ and his mobile application
- on this site. The main purpose of this project to obtain common and optimal 
+ on this site. The main purpose of the project to obtain common and optimal 
  infrastructure for Web and Mobile platforms.
   Thus, I decided to use Bottom-up approach for this project. This kind of
  architecture uses separate small parts of the system and linked to
@@ -25,6 +25,10 @@ In this project, I'm testing the main functionality of
    - In the Bottom-up architecture composition takes place, and
     in this kind of implementation details may differ.
     
+   Also, there is one major problem with Android architecture,
+    this term has no canonical definition. Therefore I will try to involve it 
+    to project like any other parts of code. 
+   
 ## Tools
  
  ***

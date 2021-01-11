@@ -1,15 +1,26 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "29f4dcc45a0e26cd7c7462063cee854b",
     "name" : "Suite",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
+    }
+  }, {
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e",
+    "name" : "Default Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 7,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 8
     }
   } ]
 }

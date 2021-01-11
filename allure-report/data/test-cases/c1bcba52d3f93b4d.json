@@ -1,0 +1,317 @@
+{
+  "uid" : "c1bcba52d3f93b4d",
+  "name" : "Verify Login to myfitnesspal",
+  "fullName" : "SanityTests.WebMyfitnesspalTests.test01_login",
+  "historyId" : "48d71ff9c7a1b6e77ab5f2a6e6f04ee",
+  "time" : {
+    "start" : 1610293411732,
+    "stop" : 1610293416177,
+    "duration" : 4445
+  },
+  "description" : "Test description: verify the username on Home page",
+  "descriptionHtml" : "<p>Test description: verify the username on Home page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1610293373770,
+      "stop" : 1610293397092,
+      "duration" : 23322
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1610293397118,
+      "stop" : 1610293410560,
+      "duration" : 13442
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Web Element",
+      "time" : {
+        "start" : 1610293402825,
+        "stop" : 1610293403220,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (0f6d113ab27c4cd142dbc8a6096ee842)] -> xpath: //i[@class='fa fa-times-thin fa-2x close']]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Login to Myfitnesspal",
+      "time" : {
+        "start" : 1610293403226,
+        "stop" : 1610293408254,
+        "duration" : 5028
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set Text to Text-Field",
+        "time" : {
+          "start" : 1610293403244,
+          "stop" : 1610293403699,
+          "duration" : 455
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (0f6d113ab27c4cd142dbc8a6096ee842)] -> xpath: //input[@id='username']]"
+        }, {
+          "name" : "value",
+          "value" : "andrewscottt"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Set Text to Text-Field",
+        "time" : {
+          "start" : 1610293403715,
+          "stop" : 1610293403817,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (0f6d113ab27c4cd142dbc8a6096ee842)] -> xpath: //input[@id='password']]"
+        }, {
+          "name" : "value",
+          "value" : "123456"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click Web Element",
+        "time" : {
+          "start" : 1610293403841,
+          "stop" : 1610293408254,
+          "duration" : 4413
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (0f6d113ab27c4cd142dbc8a6096ee842)] -> class name: submit]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "andrewscottt"
+      }, {
+        "name" : "password",
+        "value" : "123456"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  } ],
+  "testStage" : {
+    "description" : "Test description: verify the username on Home page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1610293416105,
+        "stop" : 1610293416175,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (0f6d113ab27c4cd142dbc8a6096ee842)] -> class name: user-2]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "andrewscottt"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1610293762051,
+      "stop" : 1610293763597,
+      "duration" : 1546
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1610293416390,
+      "stop" : 1610293416390,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.WebMyfitnesspalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.WebMyfitnesspalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.WebMyfitnesspalTests"
+  }, {
+    "name" : "host",
+    "value" : "andrew"
+  }, {
+    "name" : "thread",
+    "value" : "16460@andrew.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "630c750fc3adf623",
+      "status" : "skipped",
+      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ANDREW', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+      "time" : {
+        "start" : 1610279503488,
+        "stop" : 1610279503491,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "d5e3cff5591cb22c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610269816772,
+        "stop" : 1610269816942,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "ff573b705f2fed71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609681790372,
+        "stop" : 1609681791096,
+        "duration" : 724
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "1847da62a663f8a9",
+        "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/3/allure/#testresult/1847da62a663f8a9",
+        "status" : "skipped",
+        "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ANDREW', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+        "time" : {
+          "start" : 1610279503488,
+          "stop" : 1610279503491,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "6d4d60b79eb34bb8",
+        "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/2/allure/#testresult/6d4d60b79eb34bb8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609681790372,
+          "stop" : 1609681791096,
+          "duration" : 724
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c1bcba52d3f93b4d.json",
+  "parameterValues" : [ "web" ]
+}

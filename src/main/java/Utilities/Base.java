@@ -9,7 +9,7 @@ import ru.yandex.qatools.ashot.comparison.ImageDiff;
 import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 
 
-/*Creating global variables and objects*/
+/*Initiation of the global variables, objects, classes*/
 public class Base
 {
     public static String Platform;

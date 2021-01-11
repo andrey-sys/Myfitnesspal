@@ -1,0 +1,129 @@
+{
+  "uid" : "908a15c55b5b6db8",
+  "name" : "Click on Goals",
+  "fullName" : "SanityTests.WebMyfitnesspalTests.test03_clickGoals",
+  "historyId" : "9ce00dab26f760c59006130a3eb1b49f",
+  "time" : {
+    "start" : 1610269895071,
+    "stop" : 1610269895567,
+    "duration" : 496
+  },
+  "description" : "Test description: click on goals page and verify calories remaining ",
+  "descriptionHtml" : "<p>Test description: click on goals page and verify calories remaining</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1610269746589,
+      "stop" : 1610269794011,
+      "duration" : 47422
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1610269854630,
+      "stop" : 1610269895067,
+      "duration" : 40437
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1610269895569,
+      "stop" : 1610269895569,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1610270082967,
+      "stop" : 1610270083926,
+      "duration" : 959
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.WebMyfitnesspalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.WebMyfitnesspalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_clickGoals"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.WebMyfitnesspalTests"
+  }, {
+    "name" : "host",
+    "value" : "andrew"
+  }, {
+    "name" : "thread",
+    "value" : "5252@andrew.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "908a15c55b5b6db8.json",
+  "parameterValues" : [ "web" ]
+}
