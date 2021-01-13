@@ -66,8 +66,8 @@ In order to execute those tests you need to
   ***
    This project have two main executable Classes MobileMyfitnesspalTests and
    WebMyfitnesspalTests. To run all those tests with Maven, I'm using XML files
-   ExecuteMobile.xml & ExecuteWeb.xml. For executing ExecuteMobile.xml tests
-   you must do next steps
+   ExecuteMobile.xml & ExecuteWeb.xml. For executing Mobile version of the tests
+   you must do next steps:
     
   >- install Appium Studio community edition
   >- download the application MyFitnessPal from Play Store
