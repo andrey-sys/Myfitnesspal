@@ -28,8 +28,7 @@ In this project, I'm testing the main functionality of
     
    Also, there is one major problem with Android architecture,
     this term has no canonical definition. Therefore I will try to involve it 
-    to project like any other parts of code with common and separate classes.
-   
+    to project like any other parts of code with common classes of Page Objects.
 ## Tools
  
  ***
