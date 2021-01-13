@@ -66,19 +66,28 @@ In order to execute those tests you need to
   ***
    This project have two main executable Classes MobileMyfitnesspalTests and
    WebMyfitnesspalTests. To run all those tests with Maven, I'm using XML files
-   ExecuteMobile.xml & ExecuteWeb.xml. For executing ExecuteMobile.xml file
-   you must install Appium Studio first, also download and install the application
-    from Play Store MyFitnessPal App.
-    initiate the Developer mode on your cellphone device. 
-   Ensure the right connection to the Appium Studio with your phone, the 
-   Appium Studio must be open all the time, when you performing the execution
-   of mobile app. So after this preparation, you are ready to full execution
+   ExecuteMobile.xml & ExecuteWeb.xml. For executing ExecuteMobile.xml tests
+   you must do next steps
+    
+  >- install Appium Studio community edition
+  >- download the application MyFitnessPal from Play Store
+  >- install it on your device or on your Appium Studio
+  >- initiate the Developer mode on your cellphone device
+  >- connect your phone with Data cable to your PC
+  >- in the Appium Studio choose add Android Device
+  >- ensure that you see model of your device and status bar is Online
+ 
+   After providing the right connection to the Appium Studio with your phone,
+   Studio must be open all the time, when you performing the execution
+   of mobile app. So after this preparation, you are ready for full execution
     of the tests.
-    For starting execution of the ExecuteWeb.xml file, you need to create your
+    
+  For starting execution of the ExecuteWeb.xml file, you need to create your
     account on the website, and change part of code: 
     
      Utilities package => CommonOps class => Line 118 =>
-      WebFlows.login("username", "password");
+     
+     WebFlows.login("username", "password");
       
    Set your own username and password, and do some manual manipulations to ensure
    that you are valid member of this website.   
