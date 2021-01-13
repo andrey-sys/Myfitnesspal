@@ -5,8 +5,9 @@
 **Project overview**
 
 In this project, I'm testing the main functionality of
- the website https://www.myfitnesspal.com/ and his mobile application
- on this site. The main purpose of the project to obtain common and optimal 
+ the website https://www.myfitnesspal.com/ and his mobile application 
+ MyFitnessPal.
+  The main purpose of the project to obtain common and optimal 
  infrastructure for Web and Mobile platforms.
   Thus, I decided to use Bottom-up approach for this project. This kind of
  architecture uses separate small parts of the system and linked to
@@ -27,16 +28,16 @@ In this project, I'm testing the main functionality of
     
    Also, there is one major problem with Android architecture,
     this term has no canonical definition. Therefore I will try to involve it 
-    to project like any other parts of code. 
+    to project like any other parts of code with common and separate classes.
    
 ## Tools
  
  ***
  - Maven
  - Java
- - Selenium webDriver
- - TestNG framework
- - Appium Studio(Community Edition)
+ - Selenium 
+ - TestNG 
+ - Appium 
  - Allure report
  - Javadoc
  - Jenkins
@@ -65,13 +66,24 @@ In order to execute those tests you need to
  
   ***
    This project have two main executable Classes MobileMyfitnesspalTests and
-   WebMyfitnesspalTests. To run all those tests with maven, I'm using XML files
+   WebMyfitnesspalTests. To run all those tests with Maven, I'm using XML files
    ExecuteMobile.xml & ExecuteWeb.xml. For executing ExecuteMobile.xml file
-   you must install Appium Studio first. Download and install from Play Store
-   MyFitnessPal App. Initiate the Developer mode on your device. 
+   you must install Appium Studio first, also download and install the application
+    from Play Store MyFitnessPal App.
+    initiate the Developer mode on your cellphone device. 
    Ensure the right connection to the Appium Studio with your phone, the 
    Appium Studio must be open all the time, when you performing the execution
-   of mobile app. So after this you are ready to full execution of the tests.
+   of mobile app. So after this preparation, you are ready to full execution
+    of the tests.
+    For starting execution of the ExecuteWeb.xml file, you need to create your
+    account on the website, and change part of code: 
+    
+     Utilities package => CommonOps class => Line 118 =>
+      WebFlows.login("username", "password");
+      
+   Set your own username and password, and do some manual manipulations to ensure
+   that you are valid member of this website.   
+  
    For executing ExecuteWeb.xml file, and after it, ExecuteMobile.xml, or 
    on the contrary with XML files, you can do next:
        
@@ -91,49 +103,59 @@ In order to execute those tests you need to
        *you can choose any free port you want, and hit enter button.
        
    After a few seconds you will see that Jenkins is started. 
-   Open your web browser   
-    
- 
-  The command also will give you the same result. Be sure of
-   proper cloning of the code to right location, to avoid of mistakes.  
+   In your browser type:
+   
+     localhost:9090
+     and hit enter button
+     
+  If you are already using Jenkins, just enter with you credentials, if not
+  you need to use some Jenkins key to enter for a first time,
+   and create your own username and password.
+    You can find a lot of documentation on Web, how to perform it.
   
- This exercise have an option to launch tests in Chrome,
+  **Be sure of
+   proper cloning of the code to right location, to avoid of mistakes.**  
+  
+ The Web part of the project have an option to launch tests in Chrome,
   Edge or FireFox browser. For using this option,
    you need change part of code by following command: 
-    go to folder on your IDE and get to the next class,
-     TodosMVCUtilities--> InitBrowserDriver--> and
- in line 14,
- 
-     private static String browserType = "chrome"; 
+   
+     go to folder on your IDE and get to the next folder:
+     
+     Configuration => DataConfig.xml  
+     in line 7: type browser name (Chrome, Firefox or IE)
+     <BrowserName>Chrome</BrowserName>
     
- you need to change browser type that you wish. You can
-  type "Firefox" or change it to "Edge",choose one of them,
-   of course if you have this browser installed on your PC. 
-   You can type by uppercase or lowercase letters, it's don't matter.
+ 
+   You can execute those tests if you have this browsers installed on your PC. 
+   You can type by uppercase or lowercase letters, It's does not matter.
    
 ## Reporting
 
 ***
-The configuration section for the maven-javadoc-plugin is optional. 
-I'm using javadoc without installing the specific plugin, so
- after proper cloning and running this code, you can see a new folder
- named javadoc.
-  
- > open javadoc folder and find the index.html file,
- > and open it in you browser.  
-  
+
+I'm using ***JavaDoc*** without installing the specific plugin. To create
+ javadoc you need create new folder in your project package and follow
+ next steps:
+ 
+ >- in Intellij go to Tools
+ >- find Generate JavaDoc 
+ >- adjust your Output directory with correct path for your javadoc's folder
+ >- hit OK button after all preparations
+ >- open javadoc folder and find the index.html file,
+ >- open it in you browser.  
+ 
     
-  In addition way, I'm using Allure report. First of all you must to see the
+  In addition way, I'm using ***Allure*** report. You will see
   next folders after first execution:
-  
   
      allure-report
      allure-results 
      
    folders in left corner, under project name. The next step is
-   opening your terminal, and typing after direction: 
+   opening your terminal or shell, and typing after direction: 
    
-     C:\Dev\MyFitnessPall>allure serve - allure-results
+     C:\YourPath\Project>allure serve - allure-results
      
    and hit enter button, and after few seconds, you will see 
    in your default browser, new tab with Allure report.
@@ -147,5 +169,6 @@ I'm using javadoc without installing the specific plugin, so
      Listeners CLASS: Screen shot in case of test is failed 1 sub-step1s 091ms
      Page Screen Shot                                             38 KB
      
-     
- 
+  You can feel free to change or to add any report you wish. If you have  
+  updates for improving this project, I will glad to know about it. 
+You can mail me: andreyyershov424@gmail.com any suggestions would appreciated.
