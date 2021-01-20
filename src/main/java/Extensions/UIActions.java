@@ -19,7 +19,7 @@ public class UIActions extends CommonOps
     /**
      * Method click perform click on the element.
      * Method click has extended from Selenium method and have WebDriverWait instance.
-     * In this method, used if sentence to avoid executing of a wait.until function on mobile tests.
+     * In this method, used if sentence to separate executing of mobile and web parts of the tests.
      *
      * @param elem is a web element that I perform click on it.
      */
@@ -34,7 +34,7 @@ public class UIActions extends CommonOps
     /**
      * Method updateText perform setting text into the text field.
      * Method updateText has extended from Selenium method and have WebDriverWait instance.
-     * In this method, used if sentence to avoid executing of a wait.until function on mobile tests.
+     * In this method, used if sentence to separate executing of mobile and web parts of the tests.
      *
      * @param elem  is a web element that I perform setting on it.
      * @param value is a text that I set in the text field.
@@ -65,6 +65,8 @@ public class UIActions extends CommonOps
      * Method languageDropDownList has Select instance class.
      * Also I use  method selectByVisibleText, it's check matching option of
      * elements that are found
+     * In this method, used if sentence to separate executing of mobile and web parts of the tests.
+     *
      * @param elem  is a web element of dropdown list.
      * @param value is a text of the list(any languages).
      */
@@ -80,6 +82,7 @@ public class UIActions extends CommonOps
     /**
      * Method setDatePicker perform setting of date picker.
      * Method setDatePicker has WebElement interface instance class.
+     * In this method, used if sentence to separate executing of mobile and web parts of the tests.
      *
      * @param elem  is a web element of the date widget.
      * @param day is a number of the day in any month.

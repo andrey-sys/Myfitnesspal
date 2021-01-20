@@ -25,7 +25,7 @@ public class MobileMyfitnesspalTests extends CommonOps
     @Description("Test description: verify that title is: Calories Remaining")
     public void test01_verifyTitle()
     {
-        Verifications.testElement(mainPage.txt_title, "Calories Remaining");
+        Verifications.expectedText(mainPage.txt_title, "Calories Remaining");
         mainPage.btn_home.click();
     }
 
@@ -38,7 +38,7 @@ public class MobileMyfitnesspalTests extends CommonOps
     {
         mainPage.btn_diary.click();
         MobileFlows.quickAddBreakfast("300");
-        Verifications.testElement(diaryPage.txt_food,"300");
+        Verifications.expectedText(diaryPage.txt_food,"300");
         mainPage.btn_home.click();
 
     }
@@ -52,7 +52,7 @@ public class MobileMyfitnesspalTests extends CommonOps
         mainPage.btn_diary.click();
         MobileFlows.quickAddBreakfast("50");
         MobileFlows.deleteFood();
-        Verifications.testElement(diaryPage.txt_food,"0");
+        Verifications.expectedText(diaryPage.txt_food,"0");
         mainPage.btn_home.click();
     }
 }

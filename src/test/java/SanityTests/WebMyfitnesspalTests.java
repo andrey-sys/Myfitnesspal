@@ -28,7 +28,7 @@ public class WebMyfitnesspalTests extends CommonOps
     @Description("Test description: verify the username on Home page")
     public void test01_login()
     {
-        Verifications.testElement(myHomePage.txt_myUserName, "andrewscottt");
+        Verifications.expectedText(myHomePage.txt_myUserName, "andrewscottt");
     }
 
     /**
@@ -38,7 +38,7 @@ public class WebMyfitnesspalTests extends CommonOps
     @Description("Test description: verify calories remaining on Home page")
     public void test02_caloriesRemaining()
     {
-        Verifications.testElement(myHomePage.txt_calories_remaining, "1890");
+        Verifications.expectedText(myHomePage.txt_calories_remaining, "1890");
     }
 
     /**
@@ -49,7 +49,7 @@ public class WebMyfitnesspalTests extends CommonOps
     public void test03_clickGoals()
     {
         myHomePage.link_myGoals.click();
-        Verifications.testElement(goalsPage.txt_calories, "1890");
+        Verifications.expectedText(goalsPage.txt_calories, "1890");
     }
 
     /**
@@ -61,7 +61,7 @@ public class WebMyfitnesspalTests extends CommonOps
     public void test04_uploadImage()
     {
         WebFlows.upload(getData("FileLocation"));
-        Verifications.testElement(communityPage.btn_delete, "Delete");
+        Verifications.expectedText(communityPage.btn_delete, "Delete");
         communityPage.btn_delete.click();
     }
 
@@ -75,7 +75,7 @@ public class WebMyfitnesspalTests extends CommonOps
         WebFlows.upload(getData("FileLocation"));
         myHomePage.link_myHome.click();
         ScreenShot.takeScreenShot(myHomePage.img_uploadedImage, "code");
-        Verifications.visualElement(myHomePage.img_uploadedImage, "code");
+        Verifications.expectedImage(myHomePage.img_uploadedImage, "code");
         WebFlows.deletePicture();
     }
 
@@ -88,8 +88,8 @@ public class WebMyfitnesspalTests extends CommonOps
     {
         myHomePage.link_food.click();
         WebFlows.setDate(getData("DateDayPicker"));
-        Verifications.testElementDisplayed(foodPage.txt_date);
-        Verifications.testDateDay(foodPage.txt_date, "2");
+        Verifications.expectedElementDisplayed(foodPage.txt_date);
+        Verifications.verifyDateDay(foodPage.txt_date, "2");
     }
 
     /**
@@ -101,7 +101,7 @@ public class WebMyfitnesspalTests extends CommonOps
     {
         myHomePage.link_community.click();
         UIActions.languageDropDownList(communityPage.list_onchange, "Deutsch");
-        Verifications.testElement(communityPage.href_ruSearch, "Suchen");
+        Verifications.expectedText(communityPage.href_ruSearch, "Suchen");
     }
 
 
