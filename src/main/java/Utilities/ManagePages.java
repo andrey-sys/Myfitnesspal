@@ -16,7 +16,6 @@ public class ManagePages extends Base
         goalsPage = PageFactory.initElements(driver, GoalsPage.class);
         communityPage = PageFactory.initElements(driver, CommunityPage.class);
         foodPage = PageFactory.initElements(driver, FoodPage.class);
-        reportsPage = PageFactory.initElements(driver, ReportsPage.class);
 
         //Mobile pages initialization
         mainPage = PageFactory.initElements(driver, MainPage.class);

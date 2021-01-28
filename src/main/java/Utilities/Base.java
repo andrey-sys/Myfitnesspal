@@ -30,7 +30,6 @@ public class Base
     public static PageObjects.WebMyfitnesspal.GoalsPage goalsPage;
     public static PageObjects.WebMyfitnesspal.CommunityPage communityPage;
     public static PageObjects.WebMyfitnesspal.FoodPage foodPage;
-    public static PageObjects.WebMyfitnesspal.ReportsPage reportsPage;
 
     //Mobile pages
     public static PageObjects.MobileFitnesspal.MainPage mainPage;

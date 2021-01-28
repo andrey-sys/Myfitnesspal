@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-
+/**
+ * There is a class for storing the page objects of the web site
+ */
 public class MyHomePage
 {
 
@@ -36,6 +38,6 @@ public class MyHomePage
     @FindBy(how = How.XPATH, using = "//*[@class='top-nav']//*[@href='/reports']")
     public WebElement link_reports;
 
-    @FindBy(how = How.XPATH,using = "//*[@class='top-nav']//*[@href='/forums']")
+    @FindBy(how = How.XPATH, using = "//*[@class='top-nav']//*[@href='/forums']")
     public WebElement link_community;
 }

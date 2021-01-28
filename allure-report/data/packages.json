@@ -2,216 +2,263 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "SanityTests.WebMyfitnesspalTests",
+    "name" : "SanityTests",
     "children" : [ {
-      "name" : "startSession",
-      "uid" : "9e90eb9c0dcfbe99",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1610269729557,
-        "stop" : 1610269729560,
-        "duration" : 3
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
+      "name" : "WebMyfitnesspalTests",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "ad8c467f2c0623ca",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610269729557,
+          "stop" : 1610269729560,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test01_login",
+        "uid" : "44b9b3e894bee6fc",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610269729797,
+          "stop" : 1610269729799,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test02_caloriesRemaining",
+        "uid" : "ec034ee24d664886",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610269729809,
+          "stop" : 1610269729809,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test03_clickGoals",
+        "uid" : "b96c34db5ec4d49e",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610269729828,
+          "stop" : 1610269729828,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test04_uploadImage",
+        "uid" : "6fbfcb6203a87e57",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610269729835,
+          "stop" : 1610269729835,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test05_verifyPicture",
+        "uid" : "2b8a2964a562a9cd",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610269729845,
+          "stop" : 1610269729845,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test06_setDate",
+        "uid" : "685a840a4c3741a8",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610269729850,
+          "stop" : 1610269729850,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test07_dropDown",
+        "uid" : "e497020c5eeefe8a",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1610269729857,
+          "stop" : 1610269729857,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "f3f22a64c97016e8",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610279501956,
+          "stop" : 1610279501959,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test01_login",
+        "uid" : "80bbf3a1d3be1118",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611850054253,
+          "stop" : 1611850055282,
+          "duration" : 1029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test02_caloriesRemaining",
+        "uid" : "9dabc549f73f65fb",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611850100179,
+          "stop" : 1611850100223,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test03_clickGoals",
+        "uid" : "df940bc275bb2af6",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611850145372,
+          "stop" : 1611850145696,
+          "duration" : 324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test04_uploadImage",
+        "uid" : "fa4a8865106d36c5",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611850195148,
+          "stop" : 1611850201941,
+          "duration" : 6793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test05_verifyPicture",
+        "uid" : "7b81d8d106147a40",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611850245572,
+          "stop" : 1611850266384,
+          "duration" : 20812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test06_setDate",
+        "uid" : "c16cc28f3bda1771",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611850312917,
+          "stop" : 1611850318478,
+          "duration" : 5561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "test07_dropDown",
+        "uid" : "54719ffc580479ce",
+        "parentUid" : "c946bf34832ec7404cdd698aae65115b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611850365179,
+          "stop" : 1611850373308,
+          "duration" : 8129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "c946bf34832ec7404cdd698aae65115b"
     }, {
-      "name" : "test01_login",
-      "uid" : "ee714f93a84824fb",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1610269729797,
-        "stop" : 1610269729799,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test02_caloriesRemaining",
-      "uid" : "127f73564ec79890",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1610269729809,
-        "stop" : 1610269729809,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test03_clickGoals",
-      "uid" : "37a514c60a0bcf23",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1610269729828,
-        "stop" : 1610269729828,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test04_uploadImage",
-      "uid" : "b477e1e7e100d65",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1610269729835,
-        "stop" : 1610269729835,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test05_verifyPicture",
-      "uid" : "bb20dc9399e25402",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1610269729845,
-        "stop" : 1610269729845,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test06_setDate",
-      "uid" : "b723c7fba8164c05",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1610269729850,
-        "stop" : 1610269729850,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test07_dropDown",
-      "uid" : "142f45d86b0c04d1",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1610269729857,
-        "stop" : 1610269729857,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "startSession",
-      "uid" : "8008d7c232279da0",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1610279501956,
-        "stop" : 1610279501959,
-        "duration" : 3
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test01_login",
-      "uid" : "c1bcba52d3f93b4d",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610293411732,
-        "stop" : 1610293416177,
-        "duration" : 4445
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test02_caloriesRemaining",
-      "uid" : "3c9c188c08bd402d",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610293466495,
-        "stop" : 1610293466599,
-        "duration" : 104
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test03_clickGoals",
-      "uid" : "78e87a314824b322",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610293527016,
-        "stop" : 1610293527391,
-        "duration" : 375
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test04_uploadImage",
-      "uid" : "2642cf0e5bdabbf3",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610293572733,
-        "stop" : 1610293587064,
-        "duration" : 14331
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test05_verifyPicture",
-      "uid" : "7540a6a2c5530833",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610293631687,
-        "stop" : 1610293651755,
-        "duration" : 20068
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test06_setDate",
-      "uid" : "1b19bf3255e963cd",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610293700205,
-        "stop" : 1610293705730,
-        "duration" : 5525
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
-    }, {
-      "name" : "test07_dropDown",
-      "uid" : "e64f275bacf7fd45",
-      "parentUid" : "c946bf34832ec7404cdd698aae65115b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610293753172,
-        "stop" : 1610293762048,
-        "duration" : 8876
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "web" ]
+      "name" : "MobileMyfitnesspalTests",
+      "children" : [ {
+        "name" : "test01_verifyTitle",
+        "uid" : "4f81b78891682af6",
+        "parentUid" : "486a8ea1f47cff981e9eadf52f2e9d66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611851650731,
+          "stop" : 1611851654902,
+          "duration" : 4171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "test02_addBreakfast",
+        "uid" : "472d22526b2ce712",
+        "parentUid" : "486a8ea1f47cff981e9eadf52f2e9d66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611851654957,
+          "stop" : 1611851666581,
+          "duration" : 11624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "test03_deleteBreakfast",
+        "uid" : "e446df297950bc58",
+        "parentUid" : "486a8ea1f47cff981e9eadf52f2e9d66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611851666591,
+          "stop" : 1611851684739,
+          "duration" : 18148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "486a8ea1f47cff981e9eadf52f2e9d66"
     } ],
-    "uid" : "SanityTests.WebMyfitnesspalTests"
+    "uid" : "e062ce92619bf6813c57937db86cc3fd"
   } ]
 }

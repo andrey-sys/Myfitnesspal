@@ -1,25 +1,5 @@
 [ {
-  "uid" : "c1bcba52d3f93b4d",
-  "name" : "Verify Login to myfitnesspal",
-  "time" : {
-    "start" : 1610293411732,
-    "stop" : 1610293416177,
-    "duration" : 4445
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2642cf0e5bdabbf3",
-  "name" : "Uploaded Picture",
-  "time" : {
-    "start" : 1610293572733,
-    "stop" : 1610293587064,
-    "duration" : 14331
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "127f73564ec79890",
+  "uid" : "ec034ee24d664886",
   "name" : "Verify Calories",
   "time" : {
     "start" : 1610269729809,
@@ -29,47 +9,7 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "3c9c188c08bd402d",
-  "name" : "Verify Calories",
-  "time" : {
-    "start" : 1610293466495,
-    "stop" : 1610293466599,
-    "duration" : 104
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78e87a314824b322",
-  "name" : "Click on Goals",
-  "time" : {
-    "start" : 1610293527016,
-    "stop" : 1610293527391,
-    "duration" : 375
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "142f45d86b0c04d1",
-  "name" : "Test DropDown List",
-  "time" : {
-    "start" : 1610269729857,
-    "stop" : 1610269729857,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "e64f275bacf7fd45",
-  "name" : "Test DropDown List",
-  "time" : {
-    "start" : 1610293753172,
-    "stop" : 1610293762048,
-    "duration" : 8876
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee714f93a84824fb",
+  "uid" : "44b9b3e894bee6fc",
   "name" : "Verify Login to myfitnesspal",
   "time" : {
     "start" : 1610269729797,
@@ -79,7 +19,7 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "b477e1e7e100d65",
+  "uid" : "6fbfcb6203a87e57",
   "name" : "Uploaded Picture",
   "time" : {
     "start" : 1610269729835,
@@ -89,47 +29,27 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "1b19bf3255e963cd",
-  "name" : "Set Date",
+  "uid" : "54719ffc580479ce",
+  "name" : "Test DropDown List",
   "time" : {
-    "start" : 1610293700205,
-    "stop" : 1610293705730,
-    "duration" : 5525
+    "start" : 1611850365179,
+    "stop" : 1611850373308,
+    "duration" : 8129
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8008d7c232279da0",
-  "name" : "startSession",
+  "uid" : "472d22526b2ce712",
+  "name" : "Add food in Diary Page",
   "time" : {
-    "start" : 1610279501956,
-    "stop" : 1610279501959,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7540a6a2c5530833",
-  "name" : "Verify Picture",
-  "time" : {
-    "start" : 1610293631687,
-    "stop" : 1610293651755,
-    "duration" : 20068
+    "start" : 1611851654957,
+    "stop" : 1611851666581,
+    "duration" : 11624
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b723c7fba8164c05",
-  "name" : "Set Date",
-  "time" : {
-    "start" : 1610269729850,
-    "stop" : 1610269729850,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "9e90eb9c0dcfbe99",
+  "uid" : "ad8c467f2c0623ca",
   "name" : "startSession",
   "time" : {
     "start" : 1610269729557,
@@ -139,7 +59,117 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "bb20dc9399e25402",
+  "uid" : "4f81b78891682af6",
+  "name" : "Verify Title",
+  "time" : {
+    "start" : 1611851650731,
+    "stop" : 1611851654902,
+    "duration" : 4171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80bbf3a1d3be1118",
+  "name" : "Verify Login to myfitnesspal",
+  "time" : {
+    "start" : 1611850054253,
+    "stop" : 1611850055282,
+    "duration" : 1029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b81d8d106147a40",
+  "name" : "Verify Picture",
+  "time" : {
+    "start" : 1611850245572,
+    "stop" : 1611850266384,
+    "duration" : 20812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dabc549f73f65fb",
+  "name" : "Verify Calories",
+  "time" : {
+    "start" : 1611850100179,
+    "stop" : 1611850100223,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b96c34db5ec4d49e",
+  "name" : "Click on Goals",
+  "time" : {
+    "start" : 1610269729828,
+    "stop" : 1610269729828,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e497020c5eeefe8a",
+  "name" : "Test DropDown List",
+  "time" : {
+    "start" : 1610269729857,
+    "stop" : 1610269729857,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c16cc28f3bda1771",
+  "name" : "Set Date",
+  "time" : {
+    "start" : 1611850312917,
+    "stop" : 1611850318478,
+    "duration" : 5561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "685a840a4c3741a8",
+  "name" : "Set Date",
+  "time" : {
+    "start" : 1610269729850,
+    "stop" : 1610269729850,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e446df297950bc58",
+  "name" : "Delete food Breakfast",
+  "time" : {
+    "start" : 1611851666591,
+    "stop" : 1611851684739,
+    "duration" : 18148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa4a8865106d36c5",
+  "name" : "Uploaded Picture",
+  "time" : {
+    "start" : 1611850195148,
+    "stop" : 1611850201941,
+    "duration" : 6793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3f22a64c97016e8",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1610279501956,
+    "stop" : 1610279501959,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2b8a2964a562a9cd",
   "name" : "Verify Picture",
   "time" : {
     "start" : 1610269729845,
@@ -149,13 +179,13 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "37a514c60a0bcf23",
+  "uid" : "df940bc275bb2af6",
   "name" : "Click on Goals",
   "time" : {
-    "start" : 1610269729828,
-    "stop" : 1610269729828,
-    "duration" : 0
+    "start" : 1611850145372,
+    "stop" : 1611850145696,
+    "duration" : 324
   },
-  "status" : "skipped",
+  "status" : "passed",
   "severity" : "normal"
 } ]

@@ -7,7 +7,7 @@
       "name" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
       "children" : [ {
         "name" : "startSession",
-        "uid" : "9e90eb9c0dcfbe99",
+        "uid" : "ad8c467f2c0623ca",
         "parentUid" : "03d526ed260d0c52bf98dc0c051a0310",
         "status" : "broken",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ANDREW', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
       "children" : [ {
         "name" : "startSession",
-        "uid" : "8008d7c232279da0",
+        "uid" : "f3f22a64c97016e8",
         "parentUid" : "098dc0ba2bc506eac7ad361e28cbaf6a",
         "status" : "broken",
         "time" : {

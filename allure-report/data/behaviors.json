@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "startSession",
-    "uid" : "9e90eb9c0dcfbe99",
+    "uid" : "ad8c467f2c0623ca",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -16,7 +16,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Verify Login to myfitnesspal",
-    "uid" : "ee714f93a84824fb",
+    "uid" : "44b9b3e894bee6fc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -29,7 +29,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Verify Calories",
-    "uid" : "127f73564ec79890",
+    "uid" : "ec034ee24d664886",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -42,7 +42,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Click on Goals",
-    "uid" : "37a514c60a0bcf23",
+    "uid" : "b96c34db5ec4d49e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -55,7 +55,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Uploaded Picture",
-    "uid" : "b477e1e7e100d65",
+    "uid" : "6fbfcb6203a87e57",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -68,7 +68,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Verify Picture",
-    "uid" : "bb20dc9399e25402",
+    "uid" : "2b8a2964a562a9cd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -81,7 +81,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Set Date",
-    "uid" : "b723c7fba8164c05",
+    "uid" : "685a840a4c3741a8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -94,7 +94,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Test DropDown List",
-    "uid" : "142f45d86b0c04d1",
+    "uid" : "e497020c5eeefe8a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
@@ -107,7 +107,7 @@
     "parameters" : [ ]
   }, {
     "name" : "startSession",
-    "uid" : "8008d7c232279da0",
+    "uid" : "f3f22a64c97016e8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -120,94 +120,133 @@
     "parameters" : [ "web" ]
   }, {
     "name" : "Verify Login to myfitnesspal",
-    "uid" : "c1bcba52d3f93b4d",
+    "uid" : "80bbf3a1d3be1118",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610293411732,
-      "stop" : 1610293416177,
-      "duration" : 4445
+      "start" : 1611850054253,
+      "stop" : 1611850055282,
+      "duration" : 1029
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "web" ]
   }, {
     "name" : "Verify Calories",
-    "uid" : "3c9c188c08bd402d",
+    "uid" : "9dabc549f73f65fb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610293466495,
-      "stop" : 1610293466599,
-      "duration" : 104
+      "start" : 1611850100179,
+      "stop" : 1611850100223,
+      "duration" : 44
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "web" ]
   }, {
     "name" : "Click on Goals",
-    "uid" : "78e87a314824b322",
+    "uid" : "df940bc275bb2af6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610293527016,
-      "stop" : 1610293527391,
-      "duration" : 375
+      "start" : 1611850145372,
+      "stop" : 1611850145696,
+      "duration" : 324
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "web" ]
   }, {
     "name" : "Uploaded Picture",
-    "uid" : "2642cf0e5bdabbf3",
+    "uid" : "fa4a8865106d36c5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610293572733,
-      "stop" : 1610293587064,
-      "duration" : 14331
+      "start" : 1611850195148,
+      "stop" : 1611850201941,
+      "duration" : 6793
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "web" ]
   }, {
     "name" : "Verify Picture",
-    "uid" : "7540a6a2c5530833",
+    "uid" : "7b81d8d106147a40",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610293631687,
-      "stop" : 1610293651755,
-      "duration" : 20068
+      "start" : 1611850245572,
+      "stop" : 1611850266384,
+      "duration" : 20812
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "web" ]
   }, {
     "name" : "Set Date",
-    "uid" : "1b19bf3255e963cd",
+    "uid" : "c16cc28f3bda1771",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610293700205,
-      "stop" : 1610293705730,
-      "duration" : 5525
+      "start" : 1611850312917,
+      "stop" : 1611850318478,
+      "duration" : 5561
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "web" ]
   }, {
     "name" : "Test DropDown List",
-    "uid" : "e64f275bacf7fd45",
+    "uid" : "54719ffc580479ce",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1610293753172,
-      "stop" : 1610293762048,
-      "duration" : 8876
+      "start" : 1611850365179,
+      "stop" : 1611850373308,
+      "duration" : 8129
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "web" ]
+  }, {
+    "name" : "Verify Title",
+    "uid" : "4f81b78891682af6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611851650731,
+      "stop" : 1611851654902,
+      "duration" : 4171
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "mobile" ]
+  }, {
+    "name" : "Add food in Diary Page",
+    "uid" : "472d22526b2ce712",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611851654957,
+      "stop" : 1611851666581,
+      "duration" : 11624
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "mobile" ]
+  }, {
+    "name" : "Delete food Breakfast",
+    "uid" : "e446df297950bc58",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611851666591,
+      "stop" : 1611851684739,
+      "duration" : 18148
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "mobile" ]
   } ]
 }
