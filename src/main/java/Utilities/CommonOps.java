@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
@@ -22,8 +23,14 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * The CommonOps class is dedicated for initialization of the objects and definition of the main operation
+ * in this project, that occur during the sequence of the main methods,
+ * like @BeforeMethod, @AfterMethod, @BeforeClass and @AfterClass
+ */
 public class CommonOps extends Base
 {
+
 
     public static String getData(String nodeName)
     {
@@ -88,7 +95,7 @@ public class CommonOps extends Base
 
     public static void initMobile() throws MalformedURLException
     {
-
+        dc = new DesiredCapabilities();
         dc.setCapability(MobileCapabilityType.UDID, "52007779b4f55507");
         dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.myfitnesspal.android");
         dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".login.Welcome");
@@ -130,7 +137,6 @@ public class CommonOps extends Base
     /*initialization of platforms*/
     @Parameters({"PlatformName"})
     @BeforeClass
-
     public void startSession(String PlatformName) throws MalformedURLException
     {
         Platform = PlatformName;
@@ -155,8 +161,6 @@ public class CommonOps extends Base
     @AfterClass
     public void closeSession()
     {
-
-            driver.quit();
-
+        driver.quit();
     }
 }

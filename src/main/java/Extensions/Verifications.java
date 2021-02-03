@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -94,6 +95,7 @@ public class Verifications extends CommonOps
         }
         Screenshot imageScreenshot = new AShot().takeScreenshot(driver, imageElement);
         BufferedImage actualImage = imageScreenshot.getImage();
+        imageDiff = new ImageDiffer();
         diff = imageDiff.makeDiff(actualImage, expectedImage);
         assertFalse(diff.hasDiff(), "Image not same!!!");
     }
