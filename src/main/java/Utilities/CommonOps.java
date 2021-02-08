@@ -126,12 +126,13 @@ public class CommonOps extends Base
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-
-
+    /**
+     * Class login is for web part, that perform login to the website www.myfitnesspal.com, and
+     * contains username and password.
+     */
     @BeforeMethod
     public void login()
     {
-
         if (Platform.equalsIgnoreCase("web"))
         {
             driver.get(getData("loginUrl"));
@@ -151,10 +152,13 @@ public class CommonOps extends Base
                 System.out.println("Exception is: " + e);
             }
         }
-
     }
 
-    /*initialization of platforms*/
+    /**
+     * This is a class for choosing which platform to be initialized web or mobile
+     *
+     * @param PlatformName represent platform type
+     */
     @Parameters({"PlatformName"})
     @BeforeClass
     public void startSession(String PlatformName) throws MalformedURLException
@@ -172,12 +176,18 @@ public class CommonOps extends Base
 
     }
 
+    /**
+     * The afterMethod is redundant, but in case of need can be involved in the project
+     */
     @AfterMethod
     public void afterMethod()
     {
 
     }
 
+    /**
+     * There is a class that close the browser after session
+     */
     @AfterClass
     public void closeSession()
     {
