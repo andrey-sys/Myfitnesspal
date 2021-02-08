@@ -10,6 +10,9 @@ import org.testng.ITestResult;
 import static Utilities.Base.Platform;
 import static Utilities.Base.driver;
 
+/**
+ * I am using the Listeners class to extend my TestNG report and Allure report.
+ */
 public class Listeners implements ITestListener
 {
     public void onStart(ITestContext execution)
@@ -47,15 +50,18 @@ public class Listeners implements ITestListener
     {
 
         System.out.println("------------- Test: " + test.getName() + " Failed ---------------");
-        if (!Platform.equalsIgnoreCase("api")&&!Platform.equalsIgnoreCase("api_students"))
-        saveScreenshot();
+        if (!Platform.equalsIgnoreCase("mobile"))
+            saveScreenshot();
     }
 
+    /**
+     * This method is designed to take a screenshot if the test fails.
+     */
     @Attachment(value = "Page Screen-Shot", type = "image/png")
     public byte[] saveScreenshot()
     {
 
-        byte[] screenshotAs = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+        byte[] screenshotAs = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
         return screenshotAs;
     }
 
