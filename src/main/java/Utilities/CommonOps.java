@@ -31,7 +31,12 @@ import java.util.concurrent.TimeUnit;
 public class CommonOps extends Base
 {
 
-
+    /**
+     * The class created for collaboration DataConfig.xml with the project, the
+     * file which contains some auxiliary data, and stored as external source Strings in XML file
+     *
+     * @param nodeName is a string that represents some date from external file
+     */
     public static String getData(String nodeName)
     {
         DocumentBuilder dBuilder;
@@ -51,7 +56,11 @@ public class CommonOps extends Base
 
     }
 
-
+    /**
+     * This is a class for choosing which browser to be initialized for web driver
+     *
+     * @param browserType represent browser type
+     */
     public void initBrowser(String browserType)
     {
         if (browserType.equalsIgnoreCase("chrome"))
@@ -70,6 +79,7 @@ public class CommonOps extends Base
         action = new Actions(driver);
 
     }
+
 
     public static WebDriver initChromeDriver()
     {
