@@ -80,7 +80,9 @@ public class CommonOps extends Base
 
     }
 
-
+    /**
+     * This is a class for initialization of ChromeDriver
+     */
     public static WebDriver initChromeDriver()
     {
         WebDriverManager.chromedriver().setup();
@@ -88,6 +90,9 @@ public class CommonOps extends Base
         return driver;
     }
 
+    /**
+     * This is a class for initialization of FireFoxDriver
+     */
     public static WebDriver initFireFoxDriver()
     {
         WebDriverManager.firefoxdriver().setup();
@@ -95,6 +100,9 @@ public class CommonOps extends Base
         return driver;
     }
 
+    /**
+     * This is a class for initialization of IExplorerDriver
+     */
     public static WebDriver initIExplorerDriver()
     {
         WebDriverManager.iedriver().setup();
@@ -102,7 +110,10 @@ public class CommonOps extends Base
         return driver;
     }
 
-
+    /**
+     * This is a class for initialization of mobile RemoteDriver that collaborate with Appium Studio
+     * Another words, there is a connection to mobile phone
+     */
     public static void initMobile() throws MalformedURLException
     {
         dc = new DesiredCapabilities();
@@ -110,12 +121,11 @@ public class CommonOps extends Base
         dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.myfitnesspal.android");
         dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".login.Welcome");
 
-        //   driver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), dc);
-
         driver = new RemoteWebDriver(new URL("http://localhost:4723/wd/hub"), dc);
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+
 
 
     @BeforeMethod
