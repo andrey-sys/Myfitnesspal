@@ -9,8 +9,8 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "7b81d8d106147a40",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/7b81d8d106147a40",
+      "uid" : "67d531bdb7accce",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/67d531bdb7accce",
       "status" : "passed",
       "time" : {
         "start" : 1611850245572,
@@ -66,8 +66,8 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "b96c34db5ec4d49e",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/b96c34db5ec4d49e",
+      "uid" : "e5aecb2b5696026b",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/e5aecb2b5696026b",
       "status" : "skipped",
       "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
       "time" : {
@@ -117,8 +117,8 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "fa4a8865106d36c5",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/fa4a8865106d36c5",
+      "uid" : "401d48cb22fb90a0",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/401d48cb22fb90a0",
       "status" : "passed",
       "time" : {
         "start" : 1611850195148,
@@ -174,8 +174,8 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "44b9b3e894bee6fc",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/44b9b3e894bee6fc",
+      "uid" : "84b0f4b55765cbf5",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/84b0f4b55765cbf5",
       "status" : "skipped",
       "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
       "time" : {
@@ -225,8 +225,8 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "e497020c5eeefe8a",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/e497020c5eeefe8a",
+      "uid" : "34df550f62f7ee7",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/34df550f62f7ee7",
       "status" : "skipped",
       "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
       "time" : {
@@ -276,8 +276,8 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "9dabc549f73f65fb",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/9dabc549f73f65fb",
+      "uid" : "fd4e8ee03817f99c",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/fd4e8ee03817f99c",
       "status" : "passed",
       "time" : {
         "start" : 1611850100179,
@@ -323,26 +323,6 @@
       }
     } ]
   },
-  "e0e730812429282e12bac7d9e74f020c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "472d22526b2ce712",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/472d22526b2ce712",
-      "status" : "passed",
-      "time" : {
-        "start" : 1611851654957,
-        "stop" : 1611851666581,
-        "duration" : 11624
-      }
-    } ]
-  },
   "71a33537f7bd53f2aa08cefdc9689a28" : {
     "statistic" : {
       "failed" : 0,
@@ -353,8 +333,8 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "ad8c467f2c0623ca",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/ad8c467f2c0623ca",
+      "uid" : "c8722fbde7712463",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/c8722fbde7712463",
       "status" : "broken",
       "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
       "time" : {
@@ -404,8 +384,8 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "80bbf3a1d3be1118",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/80bbf3a1d3be1118",
+      "uid" : "d7f9c1d9161fbaf2",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/d7f9c1d9161fbaf2",
       "status" : "passed",
       "time" : {
         "start" : 1611850054253,
@@ -461,8 +441,8 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "df940bc275bb2af6",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/df940bc275bb2af6",
+      "uid" : "2962c502764faee8",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/2962c502764faee8",
       "status" : "passed",
       "time" : {
         "start" : 1611850145372,
@@ -508,23 +488,24 @@
       }
     } ]
   },
-  "1195ec265db5a254dfed28c0cfd3ebe6" : {
+  "770113eda21269c4b25594dad997c084" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e446df297950bc58",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/e446df297950bc58",
-      "status" : "passed",
+      "uid" : "453cf82352ef3b7",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/7/allure/#testresult/453cf82352ef3b7",
+      "status" : "failed",
+      "statusDetails" : "expected [ndrewscottt] but found [andrewscottt]",
       "time" : {
-        "start" : 1611851666591,
-        "stop" : 1611851684739,
-        "duration" : 18148
+        "start" : 1612866174487,
+        "stop" : 1612866189109,
+        "duration" : 14622
       }
     } ]
   },
@@ -538,8 +519,8 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "f3f22a64c97016e8",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/f3f22a64c97016e8",
+      "uid" : "f1cf03d2e6cce55b",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/f1cf03d2e6cce55b",
       "status" : "broken",
       "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ANDREW', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
       "time" : {
@@ -589,8 +570,8 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "685a840a4c3741a8",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/685a840a4c3741a8",
+      "uid" : "3bbcac3385593ec2",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/3bbcac3385593ec2",
       "status" : "skipped",
       "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
       "time" : {
@@ -630,26 +611,6 @@
       }
     } ]
   },
-  "ebc153bab2207e745c8fe6a63cea566" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4f81b78891682af6",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/4f81b78891682af6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1611851650731,
-        "stop" : 1611851654902,
-        "duration" : 4171
-      }
-    } ]
-  },
   "a2cfeb30d8c9f183fd346e92ae964b0f" : {
     "statistic" : {
       "failed" : 0,
@@ -660,8 +621,8 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "c16cc28f3bda1771",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/c16cc28f3bda1771",
+      "uid" : "c7d6c898a5d124c6",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/c7d6c898a5d124c6",
       "status" : "passed",
       "time" : {
         "start" : 1611850312917,
@@ -717,8 +678,8 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "ec034ee24d664886",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/ec034ee24d664886",
+      "uid" : "bf64fb03462559b4",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/bf64fb03462559b4",
       "status" : "skipped",
       "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
       "time" : {
@@ -768,8 +729,8 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "2b8a2964a562a9cd",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/2b8a2964a562a9cd",
+      "uid" : "b06ad78ab03375c4",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/b06ad78ab03375c4",
       "status" : "skipped",
       "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
       "time" : {
@@ -819,8 +780,8 @@
       "total" : 4
     },
     "items" : [ {
-      "uid" : "6fbfcb6203a87e57",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/6fbfcb6203a87e57",
+      "uid" : "c9e3138066e7ef9",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/c9e3138066e7ef9",
       "status" : "skipped",
       "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
       "time" : {
@@ -870,8 +831,8 @@
       "total" : 5
     },
     "items" : [ {
-      "uid" : "54719ffc580479ce",
-      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Mobile%20Execution/5/allure/#testresult/54719ffc580479ce",
+      "uid" : "8da9f7f3b511340b",
+      "reportUrl" : "http://localhost:9090/job/MyFitnessPal%20Web%20Execution/6/allure/#testresult/8da9f7f3b511340b",
       "status" : "passed",
       "time" : {
         "start" : 1611850365179,

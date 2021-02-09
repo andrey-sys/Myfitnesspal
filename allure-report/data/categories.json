@@ -2,42 +2,25 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\Andrew\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "name" : "expected [ndrewscottt] but found [andrewscottt]",
       "children" : [ {
-        "name" : "startSession",
-        "uid" : "ad8c467f2c0623ca",
-        "parentUid" : "03d526ed260d0c52bf98dc0c051a0310",
-        "status" : "broken",
+        "name" : "Verify username on Home page",
+        "uid" : "453cf82352ef3b7",
+        "parentUid" : "1b8420f7665e50e87fb58d24be1c243f",
+        "status" : "failed",
         "time" : {
-          "start" : 1610269729557,
-          "stop" : 1610269729560,
-          "duration" : 3
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "03d526ed260d0c52bf98dc0c051a0310"
-    }, {
-      "name" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ANDREW', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
-      "children" : [ {
-        "name" : "startSession",
-        "uid" : "f3f22a64c97016e8",
-        "parentUid" : "098dc0ba2bc506eac7ad361e28cbaf6a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1610279501956,
-          "stop" : 1610279501959,
-          "duration" : 3
+          "start" : 1612866174487,
+          "stop" : 1612866189109,
+          "duration" : 14622
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "web" ]
       } ],
-      "uid" : "098dc0ba2bc506eac7ad361e28cbaf6a"
+      "uid" : "1b8420f7665e50e87fb58d24be1c243f"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }

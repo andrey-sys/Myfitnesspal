@@ -21,6 +21,7 @@ import static org.testng.Assert.*;
  */
 public class Verifications extends CommonOps
 {
+
     /**
      * Method testElement verify text of the element.
      * In this method, used if sentence to avoid executing of the mobile part of the tests.
@@ -28,12 +29,14 @@ public class Verifications extends CommonOps
      * @param elem          is a web element that I perform click on it.
      * @param expectedValue there is a text of the element.
      */
+
     @Step("Verify text in element")
     public static void expectedText(WebElement elem, String expectedValue)
     {
-        if (!Platform.equalsIgnoreCase("mobile"))
+        if (Platform.equalsIgnoreCase("mobile"))
+            assertEquals(elem.getText(), expectedValue);
+        else if (Platform.equalsIgnoreCase("web"))
             wait.until(ExpectedConditions.visibilityOf(elem));
-        else
             assertEquals(elem.getText(), expectedValue);
     }
 
@@ -55,7 +58,6 @@ public class Verifications extends CommonOps
         assertEquals(newDate[2], expectedValue);
 
     }
-
 
     /**
      * Method expectedElementDisplayed verify the date element if displayed.
