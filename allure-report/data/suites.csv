@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Tue Feb 09 12:22:54 IST 2021","Tue Feb 09 12:23:09 IST 2021","14622","Suite","Web Tests","SanityTests.WebMyfitnesspalTests","SanityTests.WebMyfitnesspalTests","test01_username","Verify username on Home page","Test description: verify the username on Home page"
