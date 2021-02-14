@@ -5,9 +5,15 @@ import PageObjects.MobileFitnesspal.MainPage;
 import PageObjects.WebMyfitnesspal.*;
 import org.openqa.selenium.support.PageFactory;
 
+/**
+ * The class ManagePages supports initialization of each page element in this project
+ */
 public class ManagePages extends Base
 {
-    // initialization of elements of each page
+    /**
+     * There is a class for initializing of all page objects in both parts of the
+     * project, mobile and web.
+     */
     public static void init()
     {
         //Web pages initialization
@@ -21,9 +27,7 @@ public class ManagePages extends Base
         mainPage = PageFactory.initElements(driver, MainPage.class);
         diaryPage = PageFactory.initElements(driver, DiaryPage.class);
 
-
     }
-
 
 }
 
