@@ -8,10 +8,16 @@ import java.io.File;
 
 /**
  * There is a class for making a screenshot of the page
- * */
+ */
 public class ScreenShot extends CommonOps
 {
 
+    /**
+     * There is a method takeScreenShot allows to make a screen shot of uploaded image
+     *
+     * @param imageElement is an element of the uploaded image
+     * @param imageName    is a name of the image
+     */
     public static void takeScreenShot(WebElement imageElement, String imageName)
     {
         try

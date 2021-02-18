@@ -4,6 +4,10 @@ import Extensions.UIActions;
 import Utilities.CommonOps;
 import io.qameta.allure.Step;
 
+/**
+ *
+ * There is a class for mobile business work flows
+ * */
 public class MobileFlows extends CommonOps
 {
     @Step("Quick Add Breakfast")
@@ -16,6 +20,13 @@ public class MobileFlows extends CommonOps
 
     }
 
+    @Step("Delete Food from list")
+    public static void deleteFood()
+    {
+        diaryPage.btn_edit.click();
+        diaryPage.box_breakfast.click();
+        diaryPage.btn_delete.click();
+    }
 
     @Step("Quick Add Lunch")
     public static void quickAddLunch(String calories)
@@ -30,13 +41,5 @@ public class MobileFlows extends CommonOps
         diaryPage.btn_containerDinner.click();
     }
 
-
-    @Step("Delete Food from list")
-    public static void deleteFood()
-    {
-        diaryPage.btn_edit.click();
-        diaryPage.box_breakfast.click();
-        diaryPage.btn_delete.click();
-    }
 
 }
