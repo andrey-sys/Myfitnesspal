@@ -5,12 +5,17 @@ import Utilities.CommonOps;
 import io.qameta.allure.Step;
 
 /**
- *
  * There is a class for mobile business work flows
- * */
+ */
 public class MobileFlows extends CommonOps
 {
-    @Step("Quick Add Breakfast")
+
+    /**
+     * This is a method for quick add the calories in Breakfast field
+     *
+     * @param calories represents a quantity of calories
+     */
+    @Step("Quick Add a calories for the Breakfast")
     public static void quickAddBreakfast(String calories)
     {
         diaryPage.btn_containerBreakfast.click();
@@ -20,6 +25,9 @@ public class MobileFlows extends CommonOps
 
     }
 
+    /**
+     * This is a method for deleting the Food from list
+     */
     @Step("Delete Food from list")
     public static void deleteFood()
     {
