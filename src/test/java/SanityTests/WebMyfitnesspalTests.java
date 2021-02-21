@@ -54,7 +54,7 @@ public class WebMyfitnesspalTests extends CommonOps
     }
 
     /**
-     *
+     * In this test I verify that button Delete is appeared after uploading of the image
      */
     @Test(description = "Uploaded Picture")
     @Description("Test description: upload picture from Gallery on Community page," +
@@ -67,7 +67,7 @@ public class WebMyfitnesspalTests extends CommonOps
     }
 
     /**
-     *
+     * In this test I verify the screen shot taken from the Home Page
      */
     @Test(description = "Verify Picture")
     @Description("Test description: verifying uploaded image element with Ashot on Home page")
@@ -81,10 +81,10 @@ public class WebMyfitnesspalTests extends CommonOps
     }
 
     /**
-     *
+     * In this test I verify the date from date picker on Food Page
      */
     @Test(description = "Set Date")
-    @Description("Setting date: 2 August 2020 in Food page")
+    @Description("Setting date: 2 August 2020 on Food page")
     public void test06_setDate()
     {
         myHomePage.link_food.click();
@@ -94,7 +94,7 @@ public class WebMyfitnesspalTests extends CommonOps
     }
 
     /**
-     *
+     * In this test I verify the drop down list on the Community Page
      */
     @Test(description = "Test DropDown List")
     @Description("Test dropdown list on Community page: select Deutsch in the list")
