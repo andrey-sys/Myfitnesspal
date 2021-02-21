@@ -23,7 +23,7 @@ public class WebMyfitnesspalTests extends CommonOps
 
 
     /**
-     *
+     * In this test I verify username on Home page
      */
     @Test(description = "Verify username on Home page")
     @Description("Test description: verify the username on Home page")
@@ -33,7 +33,7 @@ public class WebMyfitnesspalTests extends CommonOps
     }
 
     /**
-     *
+     * In this test I verify calories remaining on Home page
      */
     @Test(description = "Verify Calories")
     @Description("Test description: verify calories remaining on Home page")
@@ -43,7 +43,7 @@ public class WebMyfitnesspalTests extends CommonOps
     }
 
     /**
-     *
+     * In this test I verify that on Goals page also have the same quantity of calories remaining
      */
     @Test(description = "Click on Goals")
     @Description("Test description: click on goals page and verify calories remaining ")

@@ -29,7 +29,7 @@ public class MobileMyfitnesspalTests extends CommonOps
     }
 
     /**
-     * In this test I verify quick add of breakfast, and calories must be 300
+     * In this test I verify quick add of breakfast and mounting of the calories
      */
     @Test(description = "Add food in Diary Page")
     @Description("Test description: quick add of breakfast, 300 calories")
