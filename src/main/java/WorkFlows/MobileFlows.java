@@ -5,7 +5,7 @@ import Utilities.CommonOps;
 import io.qameta.allure.Step;
 
 /**
- * There is a class for mobile business work flows
+ * There is a class for mobile business work flows of the mobile version of the app myfitnesspal
  */
 public class MobileFlows extends CommonOps
 {
@@ -26,9 +26,9 @@ public class MobileFlows extends CommonOps
     }
 
     /**
-     * This is a method for deleting the Food from list
+     * This is a method for deleting the Food from the Calories Remaining
      */
-    @Step("Delete Food from list")
+    @Step("Delete Food from the the Calories Remaining")
     public static void deleteFood()
     {
         diaryPage.btn_edit.click();

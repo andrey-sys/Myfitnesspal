@@ -54,7 +54,7 @@ public class WebMyfitnesspalTests extends CommonOps
             " ensure that element(button) appear and delete the picture ")
     public void test04_uploadImage()
     {
-        WebFlows.upload(getData("FileLocation"));
+        WebFlows.uploadImage(getData("FileLocation"));
         Verifications.expectedText(communityPage.btn_delete, "Delete");
         communityPage.btn_delete.click();
     }
@@ -64,7 +64,7 @@ public class WebMyfitnesspalTests extends CommonOps
     @Description("Test description: verifying uploaded image element with Ashot on Home page")
     public void test05_verifyPicture()
     {
-        WebFlows.upload(getData("FileLocation"));
+        WebFlows.uploadImage(getData("FileLocation"));
         myHomePage.link_myHome.click();
         ScreenShot.takeScreenShot(myHomePage.img_uploadedImage, "code");
         Verifications.expectedImage(myHomePage.img_uploadedImage, "code");

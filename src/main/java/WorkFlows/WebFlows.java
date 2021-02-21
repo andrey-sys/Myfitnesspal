@@ -1,14 +1,20 @@
 package WorkFlows;
 
-/*import Extensions.DBActions;*/
-
 import Extensions.UIActions;
 import Utilities.CommonOps;
 import io.qameta.allure.Step;
 
+/**
+ * There is a class for web business work flows of the website myfitnesspal.com
+ */
 public class WebFlows extends CommonOps
 {
-
+    /**
+     * There is a method for performing the login operation
+     *
+     * @param user     represents the username of the user
+     * @param password represents the password of the user
+     */
     @Step("Login to Myfitnesspal")
     public static void login(String user, String password)
     {
@@ -17,15 +23,23 @@ public class WebFlows extends CommonOps
         UIActions.click(myFitnesspalLogin.btn_login);
     }
 
-    @Step("Upload picture from file")
-    public static void upload(String fileLocation)
+    /**
+     * There is a method for uploading images from a file location to the website
+     *
+     * @param fileLocation is representing the file location of the image on your device
+     */
+    @Step("Upload image from file")
+    public static void uploadImage(String fileLocation)
     {
         UIActions.click(myHomePage.link_photo);
         UIActions.uploadPhoto(communityPage.file_photo, fileLocation);
         UIActions.click(communityPage.btn_commit);
     }
 
-    @Step("Delete loaded picture")
+    /**
+     * This is a method for deleting the image from the profile of the user
+     */
+    @Step("Delete loaded image")
     public static void deletePicture()
     {
         UIActions.click(myHomePage.link_myHome);
@@ -34,7 +48,12 @@ public class WebFlows extends CommonOps
         UIActions.click(communityPage.btn_delete);
     }
 
-    @Step("Set Data in Date Picker")
+    /**
+     * This is a method for setting the number of the day to date picker
+     *
+     * @param day represents the number of the day, located in Configuration folder
+     */
+    @Step("Set Date in Date Picker")
     public static void setDate(String day)
     {
         UIActions.click(foodPage.btn_datepicker);
